@@ -1,11 +1,11 @@
 <script>
   import "@/assets/css/app.scss";
   import boot from "@/lib/boot";
+  import Legal from "@/components/Legal.svelte";
   boot();
 </script>
 
-<main>
-  <h1>Hallo!</h1>
-  <h2>Hallo!</h2>
-  <div>Hallo!</div>
-</main>
+<h1>Hallo!</h1>
+<Legal />
+<div class="flex-grow my-md" />
+<div>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</div>
