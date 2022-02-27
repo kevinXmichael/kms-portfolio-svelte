@@ -20,7 +20,7 @@ h2 {
 }
 
 a {
-  @apply text-white;
+  @apply text-white underline;
 
   &:hover {
     @apply text-pink;
