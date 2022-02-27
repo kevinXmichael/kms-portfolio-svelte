@@ -1,4 +1,8 @@
-<div class="flex flex-col w-full h-full items-center justify-center text-center">
+<script>
+  export let classes
+</script>
+
+<div class={`${classes} flex flex-col w-full h-full items-center justify-center text-center`}>
   <img
     src="img/profile-pic.jpg"
     alt="kevin"
@@ -6,6 +10,6 @@
   />
   <div class="mt-md">
     <h1 class="hover:text-pink">Hey there, I am Kevin.</h1>
-    <div class="mt-sm hover:text-pink">Building beautiful things on the web is my passion.</div>
+    <div class="mt-sm hover:text-pink">Building awesome things on the web is my passion.</div>
   </div>
 </div>

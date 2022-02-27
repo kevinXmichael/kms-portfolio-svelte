@@ -11,8 +11,11 @@
   const gridSpace = "mt-md"
 </script>
 
-<Profile />
-<div class={`${gridLayout} mt-lg`}>
+<Profile classes="mb-lg" />
+<Expandable title="projects" expandable expanded>
+  <Projects classes={gridLayout} />
+</Expandable>
+<div class={`${gridLayout} ${gridSpace}`}>
   <Expandable title="have">
     <ul>
       <li>A master's degree in computer science</li>
@@ -28,16 +31,11 @@
       <li>General IT consulting</li>
     </ul>
   </Expandable>
-</div>
-<Expandable classes={gridSpace} title="projects" expandable expanded>
-  <Projects classes={gridLayout} />
-</Expandable>
-<div class={gridLayout}>
-  <Expandable classes={gridSpace} title="love">
+  <Expandable title="love">
     <ul>
       <li>Svelte, Vue, React</li>
       <li>JavaScript, Python</li>
-      <li>vite, yarn, Sass, Windi.css</li>
+      <li>vite, yarn, Sass, Windi CSS</li>
       <li>Google, Firebase, Vercel</li>
       <li>macOS, Linux, Brave, Firefox</li>
     </ul>
