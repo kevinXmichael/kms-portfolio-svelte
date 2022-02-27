@@ -1,0 +1,81 @@
+$std-scale-factor: 1.025;
+$std-shrink-factor: 0.975;
+$std-transition-duration: 0.3s;
+
+.std-hover {
+  @media (hover) {
+    &:hover {
+      outline: 0;
+      transition: $std-transition-duration;
+      cursor: pointer;
+    }
+  }
+
+  &--glow {
+    &:hover {
+      @extend .glow;
+    }
+  }
+
+  &--scale {
+    transition: $std-transition-duration;
+
+    &:hover {
+      transition: $std-transition-duration;
+      transform: scale($std-scale-factor);
+    }
+  }
+}
+
+.pressable {
+  transition: $std-transition-duration;
+
+  &:active {
+    transform: scale($std-shrink-factor) !important;
+  }
+}
+
+.bg-magic {
+  background: linear-gradient(-45deg, var(--teal), var(--blue), var(--pink));
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fade-in {
+  animation: 1s fade-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.5;
+  }
+}
+
+.float-x {
+  animation: 3s float-x ease infinite;
+}
+
+@keyframes float-x {
+  50% {
+    transform: translateX(-50%);
+  }
+}
+
+.glow {
+  filter: drop-shadow(0 0 0.75rem var(--primary-variant));
+}
