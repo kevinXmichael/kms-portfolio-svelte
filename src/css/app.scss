@@ -24,6 +24,8 @@ body {
 body {
   @extend .fancy-scrollbar;
   @extend .bg-magic;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
 }
 
 body,
@@ -44,8 +46,10 @@ img {
   height: auto;
 }
 
-li::before {
-  content: "・ ";
+.nice-list {
+  li::before {
+    content: "➞ ";
+  }
 }
 
 .card-style {

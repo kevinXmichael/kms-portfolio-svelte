@@ -16,7 +16,7 @@
     {/if}
   </div>
   <div class="flex-grow" />
-  <div class="flex flex-col w-full h-full mt-md bg-primary p-sm rounded-md">
+  <div class="flex flex-col w-full h-full mt-md bg-primary p-sm rounded-md nice-list">
     {#if description}
       <div>{description}</div>
     {:else}

@@ -1,15 +1,11 @@
-.theme {
+.theme-kms {
   --pink: #fc42c9;
   --blue: #152dc0;
   --teal: #1dd9fb;
   --white: #ffffff;
   --black: #000000;
-
-  &--dark {
-    @extend .theme;
-    --primary: #131313;
-    --primary-variant: #595959;
-    --secondary: #e8e8e8;
-    --secondary-variant: #c1c1c1;
-  }
+  --primary: #131313;
+  --primary-variant: #595959;
+  --secondary: #e8e8e8;
+  --secondary-variant: #c1c1c1;
 }
