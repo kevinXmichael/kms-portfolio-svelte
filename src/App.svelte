@@ -54,7 +54,7 @@
   </Card>
 </div>
 
-<Expandable title="My projects" expandable classes="mt-md">
+<Expandable title="Projects" expandable classes="mt-md">
   <Projects classes={gridLayout} />
 </Expandable>
 

@@ -32,9 +32,9 @@ module.exports = {
       "primary-variant": "var(--primary-variant)",
       secondary: "var(--secondary)",
       "secondary-variant": "var(--secondary-variant)",
+      violet: "var(--violet)",
       pink: "var(--pink)",
       blue: "var(--blue)",
-      teal: "var(--teal)",
       white: "var(--white)",
       black: "var(--black)"
     }
