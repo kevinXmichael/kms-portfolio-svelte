@@ -41,8 +41,14 @@
   </Card>
   <Card title="I am available">
     <ul>
-      <li>You can find me on <a href="https://www.linkedin.com/in/kmschott/">LinkedIn </a></li>
-      <li>Checkout my <a href="https://github.com/kevinXmichael/">GitHub</a> projects</li>
+      <li>
+        You can find me on <a href="https://www.linkedin.com/in/kmschott/" target="_blank"
+          >LinkedIn
+        </a>
+      </li>
+      <li>
+        Checkout my <a href="https://github.com/kevinXmichael/" target="_blank">GitHub</a> projects
+      </li>
       <li>And also Email me: <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></li>
     </ul>
   </Card>

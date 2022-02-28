@@ -1,7 +1,7 @@
 <div class="text-justify card-style">
   <h1>Imprint</h1>
   <br />
-  <p>🤠&nbsp; <a>Kevin Michael Schott</a></p>
+  <p>🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
   <br />
   <p>📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
   <br />
