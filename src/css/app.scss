@@ -21,9 +21,13 @@ body {
   font-weight: $fw-regular;
 }
 
+body {
+  @extend .fancy-scrollbar;
+  @extend .bg-magic;
+}
+
 body,
 main {
-  @extend .fancy-scrollbar;
   height: 100%;
   min-height: 99vh;
   width: 100%;
@@ -42,4 +46,26 @@ img {
 
 li::before {
   content: "・ ";
+}
+
+.card-style {
+  @apply bg-blurry p-md rounded-md w-full h-full;
+  @extend .std-hover;
+
+  &--interact {
+    @extend .pressable;
+    @extend .std-hover--scale;
+  }
+}
+
+.card {
+  @apply flex flex-col items-center;
+  @extend .card-style;
+  @extend .card-style--interact;
+
+  $cardWrapperHeight: 12rem;
+  height: $cardWrapperHeight;
+  min-height: $cardWrapperHeight;
+  max-height: $cardWrapperHeight;
+  width: 100%;
 }

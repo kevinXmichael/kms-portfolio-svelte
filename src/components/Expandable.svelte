@@ -3,7 +3,7 @@
   export let title = ""
   export let expandable = false
   export let expanded = !expandable
-  $: expandSymbol = expanded ? "⬆︎" : "⬇︎"
+  $: expandSymbol = expanded ? "👇" : "👈"
   const maxWidth = "100%"
 
   function expand() {
@@ -13,24 +13,22 @@
   }
 </script>
 
-<div class={`flex flex-col w-full h-full ${classes}`}>
+<div class={`flex flex-col w-full ${classes}`}>
   <div
-    class="flex flex-row w-full items-center select-none cursor-pointer"
+    class="card-style card-style--interact flex flex-row w-full items-center select-none cursor-pointer"
     style={`max-width: ${maxWidth};`}
     on:click={expand}
   >
-    <h1 class="uppercase">{title}</h1>
+    <h1>{title}</h1>
     {#if expandable}
       <div class="flex-grow mx-sm" />
       {expandSymbol}
     {/if}
   </div>
-  <div
-    class="mb-md bg-magic w-full"
-    style={`min-height: .25rem; width: 100%; max-width: ${maxWidth};`}
-  />
 
   {#if expanded}
-    <slot />
+    <div class="my-md fade-in">
+      <slot />
+    </div>
   {/if}
 </div>

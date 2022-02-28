@@ -41,6 +41,11 @@ $std-transition-duration: 0.3s;
   animation: gradient 15s ease infinite;
 }
 
+.bg-blurry {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;

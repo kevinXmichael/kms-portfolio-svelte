@@ -1,8 +1,8 @@
 function doHTMLvoodoo() {
-  window.addEventListener("resize", setInnerViewport);
+  window.addEventListener("resize", setInnerViewport)
 
-  const hacker = "%cHey hacker 🔥";
-  console.info(hacker, "color: red; font-size: medium");
+  const hacker = "%cHey hacker 🔥"
+  console.info(hacker, "color: red; font-size: medium")
 
   // https://patorjk.com/software/taag/#p=display&f=Small&t=kms695
   const kms695_ = String.raw`
@@ -10,21 +10,21 @@ function doHTMLvoodoo() {
  | |___ __  ___ / // _ \ __|
  | / / '  \(_-</ _ \_, /__ \
  |_\_\_|_|_/__/\___//_/|___/
-`;
-  console.info(`%c${kms695_}`, `color: #feef37; font-size: medium`);
-  const kms695 = document.createComment(kms695_);
-  document.prepend(kms695);
+`
+  console.info(`%c${kms695_}`, `color: #feef37; font-size: medium`)
+  const kms695 = document.createComment(kms695_)
+  document.prepend(kms695)
 }
 
 function setInnerViewport() {
-  const vh = window.innerHeight * 0.01;
-  const vw = window.innerWidth * 0.01;
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
-  document.documentElement.style.setProperty("--vw", `${vw}px`);
+  const vh = window.innerHeight * 0.01
+  const vw = window.innerWidth * 0.01
+  document.documentElement.style.setProperty("--vh", `${vh}px`)
+  document.documentElement.style.setProperty("--vw", `${vw}px`)
 }
 
 export default function boot() {
-  doHTMLvoodoo();
-  setInnerViewport();
-  window.addEventListener("resize", setInnerViewport);
+  doHTMLvoodoo()
+  setInnerViewport()
+  window.addEventListener("resize", setInnerViewport)
 }
