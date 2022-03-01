@@ -24,9 +24,9 @@
     {/if}
     {#if tags && tags.length > 0}
       <div class="flex-grow" />
-      <div class="pt-xs flex flex-row flex-wrap items-center w-full">
+      <div class="pt-xs flex flex-row flex-nowrap items-center w-full">
         {#each tags as tag}
-          <div class="text-small text-white rounded-md bg-blurry mr-sm mt-sm p-xs">
+          <div class="text-small text-white text-cut rounded-md bg-blurry mr-sm mt-sm p-xs">
             #{tag}
           </div>
         {/each}
