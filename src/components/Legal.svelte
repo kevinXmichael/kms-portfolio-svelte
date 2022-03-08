@@ -1,17 +1,17 @@
 <div class="text-justify card-style">
-  <h1>Imprint</h1>
+  <h1 tabindex="0">Imprint</h1>
   <br />
-  <p>🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
+  <p tabindex="0">🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
   <br />
-  <p>📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
+  <p tabindex="0">📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
   <br />
-  <p>
+  <p tabindex="0">
     🌐&nbsp; <a href="https://kms695.de" target="_blank">https://kms695.de</a>
   </p>
   <br />
-  <h1>Privacy Policy</h1>
+  <h1 tabindex="0">Privacy Policy</h1>
   <br />
-  <p>
+  <p tabindex="0">
     We are very delighted that you have shown interest in our enterprise. Data protection is of a
     particularly high priority for us. The use of the Internet pages of kms695 is possible without
     any indication of personal data; however, if a data subject wants to use special enterprise
@@ -20,7 +20,7 @@
     obtain consent from the data subject.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     The processing of personal data, such as the name, address, e-mail address, or telephone number
     of a data subject shall always be in line with the General Data Protection Regulation (GDPR),
     and in accordance with the country-specific data protection regulations applicable to kms695. By
@@ -30,7 +30,7 @@
     rights to which they are entitled.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     As the controller, kms695 has implemented numerous technical and organizational measures to
     ensure the most complete protection of personal data processed through this website. However,
     Internet-based data transmissions may in principle have security gaps, so absolute protection
@@ -38,8 +38,8 @@
     us via alternative means, e.g. by telephone.
   </p>
   <br />
-  <h4>1. Definitions</h4>
-  <p>
+  <h4 tabindex="0">1. Definitions</h4>
+  <p tabindex="0">
     The data protection declaration of kms695 is based on the terms used by the European legislator
     for the adoption of the General Data Protection Regulation (GDPR). Our data protection
     declaration should be legible and understandable for the general public, as well as our
@@ -47,12 +47,12 @@
     used.
   </p>
   <br />
-  <p>In this data protection declaration, we use, inter alia, the following terms:</p>
+  <p tabindex="0">In this data protection declaration, we use, inter alia, the following terms:</p>
   <br />
   <ul>
     <li>
-      <h4>a) Personal data</h4>
-      <p>
+      <h4 tabindex="0">a) Personal data</h4>
+      <p tabindex="0">
         Personal data means any information relating to an identified or identifiable natural person
         (“data subject”). An identifiable natural person is one who can be identified, directly or
         indirectly, in particular by reference to an identifier such as a name, an identification
@@ -62,15 +62,15 @@
       </p>
     </li>
     <li>
-      <h4>b) Data subject</h4>
-      <p>
+      <h4 tabindex="0">b) Data subject</h4>
+      <p tabindex="0">
         Data subject is any identified or identifiable natural person, whose personal data is
         processed by the controller responsible for the processing.
       </p>
     </li>
     <li>
-      <h4>c) Processing</h4>
-      <p>
+      <h4 tabindex="0">c) Processing</h4>
+      <p tabindex="0">
         Processing is any operation or set of operations which is performed on personal data or on
         sets of personal data, whether or not by automated means, such as collection, recording,
         organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use,
@@ -79,15 +79,15 @@
       </p>
     </li>
     <li>
-      <h4>d) Restriction of processing</h4>
-      <p>
+      <h4 tabindex="0">d) Restriction of processing</h4>
+      <p tabindex="0">
         Restriction of processing is the marking of stored personal data with the aim of limiting
         their processing in the future.
       </p>
     </li>
     <li>
-      <h4>e) Profiling</h4>
-      <p>
+      <h4 tabindex="0">e) Profiling</h4>
+      <p tabindex="0">
         Profiling means any form of automated processing of personal data consisting of the use of
         personal data to evaluate certain personal aspects relating to a natural person, in
         particular to analyse or predict aspects concerning that natural person's performance at
@@ -96,8 +96,8 @@
       </p>
     </li>
     <li>
-      <h4>f)  Pseudonymisation</h4>
-      <p>
+      <h4 tabindex="0">f)  Pseudonymisation</h4>
+      <p tabindex="0">
         Pseudonymisation is the processing of personal data in such a manner that the personal data
         can no longer be attributed to a specific data subject without the use of additional
         information, provided that such additional information is kept separately and is subject to
@@ -106,8 +106,8 @@
       </p>
     </li>
     <li>
-      <h4>g) Controller or controller responsible for the processing</h4>
-      <p>
+      <h4 tabindex="0">g) Controller or controller responsible for the processing</h4>
+      <p tabindex="0">
         Controller or controller responsible for the processing is the natural or legal person,
         public authority, agency or other body which, alone or jointly with others, determines the
         purposes and means of the processing of personal data; where the purposes and means of such
@@ -116,15 +116,15 @@
       </p>
     </li>
     <li>
-      <h4>h) Processor</h4>
-      <p>
+      <h4 tabindex="0">h) Processor</h4>
+      <p tabindex="0">
         Processor is a natural or legal person, public authority, agency or other body which
         processes personal data on behalf of the controller.
       </p>
     </li>
     <li>
-      <h4>i)   Recipient</h4>
-      <p>
+      <h4 tabindex="0">i)   Recipient</h4>
+      <p tabindex="0">
         Recipient is a natural or legal person, public authority, agency or another body, to which
         the personal data are disclosed, whether a third party or not. However, public authorities
         which may receive personal data in the framework of a particular inquiry in accordance with
@@ -134,16 +134,16 @@
       </p>
     </li>
     <li>
-      <h4>j)   Third party</h4>
-      <p>
+      <h4 tabindex="0">j)   Third party</h4>
+      <p tabindex="0">
         Third party is a natural or legal person, public authority, agency or body other than the
         data subject, controller, processor and persons who, under the direct authority of the
         controller or processor, are authorised to process personal data.
       </p>
     </li>
     <li>
-      <h4>k) Consent</h4>
-      <p>
+      <h4 tabindex="0">k) Consent</h4>
+      <p tabindex="0">
         Consent of the data subject is any freely given, specific, informed and unambiguous
         indication of the data subject's wishes by which he or she, by a statement or by a clear
         affirmative action, signifies agreement to the processing of personal data relating to him
@@ -152,15 +152,15 @@
     </li>
   </ul>
   <br />
-  <h4>2. Name and Address of the controller</h4>
-  <p>
+  <h4 tabindex="0">2. Name and Address of the controller</h4>
+  <p tabindex="0">
     Controller for the purposes of the General Data Protection Regulation (GDPR), other data
     protection laws applicable in Member states of the European Union and other provisions related
     to data protection is:
   </p>
   <br />
-  <h4>3. Collection of general data and information</h4>
-  <p>
+  <h4 tabindex="0">3. Collection of general data and information</h4>
+  <p tabindex="0">
     The website of kms695 collects a series of general data and information when a data subject or
     automated system calls up the website. This general data and information are stored in the
     server log files. Collected may be (1) the browser types and versions used, (2) the operating
@@ -171,7 +171,7 @@
     event of attacks on our information technology systems.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     When using these general data and information, kms695 does not draw any conclusions about the
     data subject. Rather, this information is needed to (1) deliver the content of our website
     correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the
@@ -184,24 +184,24 @@
     a data subject.
   </p>
   <br />
-  <h4>4. Routine erasure and blocking of personal data</h4>
-  <p>
+  <h4 tabindex="0">4. Routine erasure and blocking of personal data</h4>
+  <p tabindex="0">
     The data controller shall process and store the personal data of the data subject only for the
     period necessary to achieve the purpose of storage, or as far as this is granted by the European
     legislator or other legislators in laws or regulations to which the controller is subject to.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     If the storage purpose is not applicable, or if a storage period prescribed by the European
     legislator or another competent legislator expires, the personal data are routinely blocked or
     erased in accordance with legal requirements.
   </p>
   <br />
-  <h4>5. Rights of the data subject</h4>
+  <h4 tabindex="0">5. Rights of the data subject</h4>
   <ul>
     <li>
-      <h4>a) Right of confirmation</h4>
-      <p>
+      <h4 tabindex="0">a) Right of confirmation</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to obtain from the
         controller the confirmation as to whether or not personal data concerning him or her are
         being processed. If a data subject wishes to avail himself of this right of confirmation, he
@@ -209,8 +209,8 @@
       </p>
     </li>
     <li>
-      <h4>b) Right of access</h4>
-      <p>
+      <h4 tabindex="0">b) Right of access</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to obtain from the
         controller free information about his or her personal data stored at any time and a copy of
         this information. Furthermore, the European directives and regulations grant the data
@@ -245,21 +245,21 @@
           for the data subject.
         </li>
       </ul>
-      <p>
+      <p tabindex="0">
         Furthermore, the data subject shall have a right to obtain information as to whether
         personal data are transferred to a third country or to an international organisation. Where
         this is the case, the data subject shall have the right to be informed of the appropriate
         safeguards relating to the transfer.
       </p>
 
-      <p>
+      <p tabindex="0">
         If a data subject wishes to avail himself of this right of access, he or she may, at any
         time, contact any employee of the controller.
       </p>
     </li>
     <li>
-      <h4>c) Right to rectification</h4>
-      <p>
+      <h4 tabindex="0">c) Right to rectification</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to obtain from the
         controller without undue delay the rectification of inaccurate personal data concerning him
         or her. Taking into account the purposes of the processing, the data subject shall have the
@@ -267,14 +267,14 @@
         supplementary statement.
       </p>
 
-      <p>
+      <p tabindex="0">
         If a data subject wishes to exercise this right to rectification, he or she may, at any
         time, contact any employee of the controller.
       </p>
     </li>
     <li>
-      <h4>d) Right to erasure (Right to be forgotten)</h4>
-      <p>
+      <h4 tabindex="0">d) Right to erasure (Right to be forgotten)</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to obtain from the
         controller the erasure of personal data concerning him or her without undue delay, and the
         controller shall have the obligation to erase personal data without undue delay where one of
@@ -306,14 +306,14 @@
           services referred to in Article 8(1) of the GDPR.
         </li>
       </ul>
-      <p>
+      <p tabindex="0">
         If one of the aforementioned reasons applies, and a data subject wishes to request the
         erasure of personal data stored by kms695, he or she may, at any time, contact any employee
         of the controller. An employee of kms695 shall promptly ensure that the erasure request is
         complied with immediately.
       </p>
 
-      <p>
+      <p tabindex="0">
         Where the controller has made personal data public and is obliged pursuant to Article 17(1)
         to erase the personal data, the controller, taking account of available technology and the
         cost of implementation, shall take reasonable steps, including technical measures, to inform
@@ -324,8 +324,8 @@
       </p>
     </li>
     <li>
-      <h4>e) Right of restriction of processing</h4>
-      <p>
+      <h4 tabindex="0">e) Right of restriction of processing</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to obtain from the
         controller restriction of processing where one of the following applies:
       </p>
@@ -350,7 +350,7 @@
           data subject.
         </li>
       </ul>
-      <p>
+      <p tabindex="0">
         If one of the aforementioned conditions is met, and a data subject wishes to request the
         restriction of the processing of personal data stored by kms695, he or she may at any time
         contact any employee of the controller. The employee of kms695 will arrange the restriction
@@ -358,8 +358,8 @@
       </p>
     </li>
     <li>
-      <h4>f) Right to data portability</h4>
-      <p>
+      <h4 tabindex="0">f) Right to data portability</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator, to receive the
         personal data concerning him or her, which was provided to a controller, in a structured,
         commonly used and machine-readable format. He or she shall have the right to transmit those
@@ -371,35 +371,35 @@
         in the public interest or in the exercise of official authority vested in the controller.
       </p>
 
-      <p>
+      <p tabindex="0">
         Furthermore, in exercising his or her right to data portability pursuant to Article 20(1) of
         the GDPR, the data subject shall have the right to have personal data transmitted directly
         from one controller to another, where technically feasible and when doing so does not
         adversely affect the rights and freedoms of others.
       </p>
 
-      <p>
+      <p tabindex="0">
         In order to assert the right to data portability, the data subject may at any time contact
         any employee of kms695.
       </p>
     </li>
     <li>
-      <h4>g) Right to object</h4>
-      <p>
+      <h4 tabindex="0">g) Right to object</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to object, on
         grounds relating to his or her particular situation, at any time, to processing of personal
         data concerning him or her, which is based on point (e) or (f) of Article 6(1) of the GDPR.
         This also applies to profiling based on these provisions.
       </p>
 
-      <p>
+      <p tabindex="0">
         kms695 shall no longer process the personal data in the event of the objection, unless we
         can demonstrate compelling legitimate grounds for the processing which override the
         interests, rights and freedoms of the data subject, or for the establishment, exercise or
         defence of legal claims.
       </p>
 
-      <p>
+      <p tabindex="0">
         If kms695 processes personal data for direct marketing purposes, the data subject shall have
         the right to object at any time to processing of personal data concerning him or her for
         such marketing. This applies to profiling to the extent that it is related to such direct
@@ -407,7 +407,7 @@
         purposes, kms695 will no longer process the personal data for these purposes.
       </p>
 
-      <p>
+      <p tabindex="0">
         In addition, the data subject has the right, on grounds relating to his or her particular
         situation, to object to processing of personal data concerning him or her by kms695 for
         scientific or historical research purposes, or for statistical purposes pursuant to Article
@@ -415,7 +415,7 @@
         out for reasons of public interest.
       </p>
 
-      <p>
+      <p tabindex="0">
         In order to exercise the right to object, the data subject may contact any employee of
         kms695. In addition, the data subject is free in the context of the use of information
         society services, and notwithstanding Directive 2002/58/EC, to use his or her right to
@@ -423,8 +423,8 @@
       </p>
     </li>
     <li>
-      <h4>h) Automated individual decision-making, including profiling</h4>
-      <p>
+      <h4 tabindex="0">h) Automated individual decision-making, including profiling</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator not to be subject
         to a decision based solely on automated processing, including profiling, which produces
         legal effects concerning him or her, or similarly significantly affects him or her, as long
@@ -435,7 +435,7 @@
         based on the data subject's explicit consent.
       </p>
 
-      <p>
+      <p tabindex="0">
         If the decision (1) is necessary for entering into, or the performance of, a contract
         between the data subject and a data controller, or (2) it is based on the data subject's
         explicit consent, kms695 shall implement suitable measures to safeguard the data subject's
@@ -444,26 +444,26 @@
         the decision.
       </p>
 
-      <p>
+      <p tabindex="0">
         If the data subject wishes to exercise the rights concerning automated individual
         decision-making, he or she may, at any time, contact any employee of kms695.
       </p>
     </li>
     <li>
-      <h4>i) Right to withdraw data protection consent</h4>
-      <p>
+      <h4 tabindex="0">i) Right to withdraw data protection consent</h4>
+      <p tabindex="0">
         Each data subject shall have the right granted by the European legislator to withdraw his or
         her consent to processing of his or her personal data at any time.
       </p>
 
-      <p>
+      <p tabindex="0">
         If the data subject wishes to exercise the right to withdraw the consent, he or she may, at
         any time, contact any employee of kms695.
       </p>
     </li>
   </ul>
-  <h4>6. Data protection provisions about the application and use of LinkedIn</h4>
-  <p>
+  <h4 tabindex="0">6. Data protection provisions about the application and use of LinkedIn</h4>
+  <p tabindex="0">
     The controller has integrated components of the LinkedIn Corporation on this website. LinkedIn
     is a web-based social network that enables users with existing business contacts to connect and
     to make new business contacts. Over 400 million registered people in more than 200 countries use
@@ -471,13 +471,13 @@
     most visited websites in the world.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     The operating company of LinkedIn is LinkedIn Corporation, 2029 Stierlin Court Mountain View, CA
     94043, UNITED STATES. For privacy matters outside of the UNITED STATES LinkedIn Ireland, Privacy
     Policy Issues, Wilton Plaza, Wilton Place, Dublin 2, Ireland, is responsible.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     With each call-up to one of the individual pages of this Internet site, which is operated by the
     controller and on which a LinkedIn component (LinkedIn plug-in) was integrated, the Internet
     browser on the information technology system of the data subject is automatically prompted to
@@ -487,7 +487,7 @@
     gains knowledge of what specific sub-page of our website was visited by the data subject.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     If the data subject is logged in at the same time on LinkedIn, LinkedIn detects with every
     call-up to our website by the data subject—and for the entire duration of their stay on our
     Internet site—which specific sub-page of our Internet page was visited by the data subject. This
@@ -497,7 +497,7 @@
     account of the data subject and stores the personal data.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     LinkedIn receives information via the LinkedIn component that the data subject has visited our
     website, provided that the data subject is logged in at LinkedIn at the time of the call-up to
     our website. This occurs regardless of whether the person clicks on the LinkedIn button or not.
@@ -506,7 +506,7 @@
     website is made.
   </p>
   <br />
-  <p>
+  <p tabindex="0">
     LinkedIn provides under https://www.linkedin.com/psettings/guest-controls the possibility to
     unsubscribe from e-mail messages, SMS messages and targeted ads, as well as the ability to
     manage ad settings. LinkedIn also uses affiliates such as Eire, Google Analytics, BlueKai,
@@ -516,8 +516,8 @@
     available under https://www.linkedin.com/legal/cookie-policy.
   </p>
   <br />
-  <h4>7. Legal basis for the processing</h4>
-  <p>
+  <h4 tabindex="0">7. Legal basis for the processing</h4>
+  <p tabindex="0">
     Art. 6(1) lit. a GDPR serves as the legal basis for processing operations for which we obtain
     consent for a specific processing purpose. If the processing of personal data is necessary for
     the performance of a contract to which the data subject is party, as is the case, for example,
@@ -541,27 +541,27 @@
     if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR).
   </p>
   <br />
-  <h4>8. The legitimate interests pursued by the controller or by a third party</h4>
-  <p>
+  <h4 tabindex="0">8. The legitimate interests pursued by the controller or by a third party</h4>
+  <p tabindex="0">
     Where the processing of personal data is based on Article 6(1) lit. f GDPR our legitimate
     interest is to carry out our business in favor of the well-being of all our employees and the
     shareholders.
   </p>
   <br />
-  <h4>9. Period for which the personal data will be stored</h4>
-  <p>
+  <h4 tabindex="0">9. Period for which the personal data will be stored</h4>
+  <p tabindex="0">
     The criteria used to determine the period of storage of personal data is the respective
     statutory retention period. After expiration of that period, the corresponding data is routinely
     deleted, as long as it is no longer necessary for the fulfillment of the contract or the
     initiation of a contract.
   </p>
   <br />
-  <h4>
+  <h4 tabindex="0">
     10. Provision of personal data as statutory or contractual requirement; Requirement necessary to
     enter into a contract; Obligation of the data subject to provide the personal data; possible
     consequences of failure to provide such data
   </h4>
-  <p>
+  <p tabindex="0">
     We clarify that the provision of personal data is partly required by law (e.g. tax regulations)
     or can also result from contractual provisions (e.g. information on the contractual partner).
     Sometimes it may be necessary to conclude a contract that the data subject provides us with
@@ -575,6 +575,8 @@
     consequences of non-provision of the personal data.
   </p>
   <br />
-  <h4>11. Existence of automated decision-making</h4>
-  <p>As a responsible company, we do not use automatic decision-making or profiling.</p>
+  <h4 tabindex="0">11. Existence of automated decision-making</h4>
+  <p tabindex="0">
+    As a responsible company, we do not use automatic decision-making or profiling.
+  </p>
 </div>

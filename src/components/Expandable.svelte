@@ -13,7 +13,7 @@
   }
 </script>
 
-<div class={`flex flex-col w-full ${classes}`}>
+<div class={`flex flex-col w-full ${classes}`} role="group">
   <div
     class="card-style card-style--interact flex flex-row w-full items-center select-none cursor-pointer"
     style={`max-width: ${maxWidth};`}

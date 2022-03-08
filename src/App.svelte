@@ -16,40 +16,42 @@
 
 <div class={`${gridLayout} ${gridSpace}`}>
   <Card title="I have">
-    <ul>
-      <li>A master's degree in computer science</li>
-      <li>Founded an internet startup</li>
-      <li>8+ years professional experience</li>
-      <li>12 completed projects</li>
+    <ul role="none">
+      <li role="menuitem">A master's degree in computer science</li>
+      <li role="menuitem">Founded an internet startup</li>
+      <li role="menuitem">8+ years professional experience</li>
+      <li role="menuitem">12 completed projects</li>
     </ul>
   </Card>
   <Card title="I offer">
-    <ul>
-      <li>Remote & agile freelance work</li>
-      <li>Web & mobile app development</li>
-      <li>General IT consulting</li>
+    <ul role="none">
+      <li role="menuitem">Remote & agile freelance work</li>
+      <li role="menuitem">Web & mobile app development</li>
+      <li role="menuitem">General IT consulting</li>
     </ul>
   </Card>
   <Card title="I like">
-    <ul>
-      <li>Svelte, Vue, React</li>
-      <li>JavaScript, Python</li>
-      <li>vite, yarn, Sass, Windi CSS</li>
-      <li>Google, Firebase, Vercel</li>
-      <li>macOS, Linux, Brave, Firefox</li>
+    <ul role="none">
+      <li role="menuitem">Svelte, Vue, React</li>
+      <li role="menuitem">JavaScript, Python</li>
+      <li role="menuitem">vite, yarn, Sass, Windi CSS</li>
+      <li role="menuitem">Google, Firebase, Vercel</li>
+      <li role="menuitem">macOS, Linux, Brave, Firefox</li>
     </ul>
   </Card>
   <Card title="I am available">
-    <ul>
-      <li>
+    <ul role="none">
+      <li role="menuitem">
         You can find me on <a href="https://www.linkedin.com/in/kmschott/" target="_blank"
           >LinkedIn
         </a>
       </li>
-      <li>
+      <li role="menuitem">
         Checkout my <a href="https://github.com/kevinXmichael/" target="_blank">GitHub</a> projects
       </li>
-      <li>And also Email me: <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></li>
+      <li role="menuitem">
+        And also Email me: <a href="mailto:kevin@kms695.de">kevin@kms695.de</a>
+      </li>
     </ul>
   </Card>
 </div>
@@ -63,4 +65,4 @@
 </Expandable>
 
 <div class="flex-grow my-md" />
-<div>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</div>
+<footer>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</footer>
