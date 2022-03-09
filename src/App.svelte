@@ -14,7 +14,7 @@
 
 <Profile classes="mb-lg" />
 
-<div class={`${gridLayout} ${gridSpace}`}>
+<section class={`${gridLayout} ${gridSpace}`}>
   <Card title="I have">
     <ul role="none">
       <li role="menuitem">A master's degree in computer science</li>
@@ -54,7 +54,7 @@
       </li>
     </ul>
   </Card>
-</div>
+</section>
 
 <Expandable title="Projects" expandable classes="mt-md">
   <Projects classes={gridLayout} />

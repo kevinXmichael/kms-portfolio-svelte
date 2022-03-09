@@ -1,13 +1,15 @@
 <div class="text-justify card-style">
-  <h1 tabindex="0">Imprint</h1>
-  <br />
-  <p tabindex="0">🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
-  <br />
-  <p tabindex="0">📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
-  <br />
-  <p tabindex="0">
-    🌐&nbsp; <a href="https://kms695.de" target="_blank">https://kms695.de</a>
-  </p>
+  <address>
+    <h1 tabindex="0">Imprint</h1>
+    <br />
+    <p tabindex="0">🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
+    <br />
+    <p tabindex="0">📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
+    <br />
+    <p tabindex="0">
+      🌐&nbsp; <a href="https://kms695.de" target="_blank">https://kms695.de</a>
+    </p>
+  </address>
   <br />
   <h1 tabindex="0">Privacy Policy</h1>
   <br />

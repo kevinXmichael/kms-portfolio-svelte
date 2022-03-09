@@ -18,7 +18,7 @@
   <div class="flex-grow" />
   <div class="flex flex-col w-full h-full mt-md bg-primary p-sm rounded-md nice-list">
     {#if description}
-      <div
+      <summary
         id="card-description"
         role="textbox"
         aria-multiline="true"
@@ -27,7 +27,7 @@
         tabindex="0"
       >
         {description}
-      </div>
+      </summary>
     {:else}
       <slot tabindex="0" />
     {/if}

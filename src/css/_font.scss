@@ -24,6 +24,10 @@ a {
   @extend .text-hover;
 }
 
+address {
+  font-style: normal;
+}
+
 .text-hover {
   &:hover {
     @apply text-pink;
