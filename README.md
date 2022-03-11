@@ -1,7 +1,40 @@
-# Portfolio
+# create-svelte
 
-👋&nbsp; Hello, this is my portfolio page. It is built with `React` and hosted with `Vercel`.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-👉&nbsp; Visit [kms695](https://kms695.de) to see it in production. You can also have a look at my [GitHub page](https://github.com/kevinXmichael) for further information.
+## Creating a project
 
-🍀&nbsp; Have a nice day.
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm init svelte@next
+
+# create a new project in my-app
+npm init svelte@next my-app
+```
+
+> Note: the `@next` is temporary
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

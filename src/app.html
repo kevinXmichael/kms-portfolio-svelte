@@ -6,18 +6,23 @@
     <meta name="description" content="Portfolio of Kevin Michael Schott (kms695)" />
     <meta name="author" content="Kevin Michael Schott" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="src/assets/profile-pic.png" />
+    <link rel="icon" type="image/png" href="src/assets/profile-pic.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="src/assets/profile-pic.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/profile-pic.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>kms695 Portfolio</title>
+    <title>Kevin Michael Schott</title>
+    %svelte.head%
   </head>
   <body>
-    <main id="app" role="main" class="flex flex-col items-center p-md m-auto fade-in"></main>
-    <script type="module" src="/src/main.js"></script>
+    <main id="app" role="main" class="flex flex-col items-center p-md m-auto fade-in">
+      %svelte.body%
+    </main>
     <noscript style="margin: auto; padding: 3rem; font-size: 1.5rem">
       <div>
         This website represents the portfolio of Kevin Michael Schott (kms695) and will work better

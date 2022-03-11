@@ -1,4 +1,5 @@
 <script>
+  import pb from "@/assets/profile-pic.png"
   export let classes
 </script>
 
@@ -7,7 +8,7 @@
   class={`${classes} flex flex-col w-full h-full items-center justify-center text-center`}
 >
   <img
-    src="img/profile-pic.jpg"
+    src={pb}
     alt="kevin"
     class="rounded-1/2 w-10rem std-hover--scale std-hover--glow pressable cursor-pointer"
     tabindex="0"

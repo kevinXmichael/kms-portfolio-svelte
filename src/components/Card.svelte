@@ -1,7 +1,7 @@
 <script>
   export let callback = () => {}
   export let description = false
-  export let url = false
+  // export let url = false
   export let info = false
   export let title = ""
   export let tags = []

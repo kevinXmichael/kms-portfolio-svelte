@@ -23,8 +23,10 @@ function setInnerViewport() {
   document.documentElement.style.setProperty("--vw", `${vw}px`)
 }
 
-export default function boot() {
-  doHTMLvoodoo()
-  setInnerViewport()
-  window.addEventListener("resize", setInnerViewport)
+export default async function boot() {
+  return await Promise.allSettled([
+    doHTMLvoodoo(),
+    setInnerViewport(),
+    window.addEventListener("resize", setInnerViewport)
+  ])
 }

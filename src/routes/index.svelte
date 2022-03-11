@@ -1,12 +1,9 @@
 <script>
-  import "@/css/app.scss"
-  import boot from "@/lib/boot"
   import Card from "@/components/Card.svelte"
   import Profile from "@/components/Profile.svelte"
   import Expandable from "@/components/Expandable.svelte"
   import Projects from "@/components/Projects.svelte"
   import Legal from "@/components/Legal.svelte"
-  boot()
 
   const gridLayout = "grid sm:grid-cols-2 grid-cols-1 gap-md w-full"
   const gridSpace = "mt-md"
