@@ -13,7 +13,7 @@
 
 <section class={`${gridLayout} ${gridSpace}`}>
   <Card title="I have">
-    <ul role="none">
+    <ul role="group">
       <li role="menuitem">8+ years professional experience</li>
       <li role="menuitem">12 completed projects</li>
       <li role="menuitem">Founded an internet startup</li>
@@ -21,14 +21,14 @@
     </ul>
   </Card>
   <Card title="I offer">
-    <ul role="none">
+    <ul role="group">
       <li role="menuitem">Remote & agile freelance work</li>
       <li role="menuitem">Web & mobile app development</li>
       <li role="menuitem">General IT consulting</li>
     </ul>
   </Card>
   <Card title="I like">
-    <ul role="none">
+    <ul role="group">
       <li role="menuitem">Svelte, Vue, React</li>
       <li role="menuitem">JavaScript, Python</li>
       <li role="menuitem">vite, yarn, Sass, Tailwind/Windi</li>
@@ -37,7 +37,7 @@
     </ul>
   </Card>
   <Card title="I am available">
-    <ul role="none">
+    <ul role="group">
       <li role="menuitem">
         Vita on <a href="https://www.linkedin.com/in/kmschott/" target="_blank">LinkedIn </a>
       </li>

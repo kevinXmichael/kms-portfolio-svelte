@@ -9,7 +9,7 @@
 
 <article tabindex="0" class="card" on:click={callback} role="textbox" contenteditable="false">
   <div class="flex flex-row items-center w-full">
-    <h2 tabindex="0" id="card-title">{title}</h2>
+    <h2 tabindex="0" id={title}>{title}</h2>
     {#if info}
       <div class="flex-grow" />
       <span tabindex="0" id="card-info">{info}</span>

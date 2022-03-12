@@ -5,11 +5,14 @@
 
 <header
   role="heading"
+  aria-label="profile"
   class={`${classes} flex flex-col w-full h-full items-center justify-center text-center`}
 >
   <img
     src={pb}
-    alt="kevin"
+    alt="Kevin Michael Schott"
+    width="100%"
+    height="100%"
     class="rounded-1/2 w-10rem std-hover--scale std-hover--glow pressable cursor-pointer"
     tabindex="0"
   />
