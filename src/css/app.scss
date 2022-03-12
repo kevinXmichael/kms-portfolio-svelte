@@ -68,13 +68,13 @@ img {
   @extend .card-style--interact;
 
   $cardWrapperHeight: 13.5rem;
-  height: $cardWrapperHeight;
   min-height: $cardWrapperHeight;
-  max-height: $cardWrapperHeight;
+  height: 100%;
   width: 100%;
 }
 
 ul,
 li {
   @apply list-none;
+  line-height: 1.5;
 }

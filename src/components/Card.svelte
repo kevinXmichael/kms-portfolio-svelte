@@ -7,12 +7,19 @@
   export let tags = []
 </script>
 
-<article tabindex="0" class="card" on:click={callback} role="textbox" contenteditable="false">
+<article
+  tabindex="0"
+  class="card"
+  id={title}
+  on:click={callback}
+  role="textbox"
+  contenteditable="false"
+>
   <div class="flex flex-row items-center w-full">
-    <h2 tabindex="0" id={title}>{title}</h2>
+    <h2 tabindex="0">{title}</h2>
     {#if info}
       <div class="flex-grow" />
-      <span tabindex="0" id="card-info">{info}</span>
+      <span tabindex="0">{info}</span>
     {/if}
   </div>
   <div class="flex-grow" />
