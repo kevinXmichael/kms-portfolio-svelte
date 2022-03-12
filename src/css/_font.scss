@@ -22,7 +22,7 @@ h2 {
 }
 
 a {
-  @apply text-white underline;
+  @apply text-white;
   @extend .text-hover;
 }
 
@@ -32,7 +32,7 @@ address {
 
 .text-hover {
   &:hover {
-    @apply text-pink;
+    @apply font-bold;
   }
 }
 

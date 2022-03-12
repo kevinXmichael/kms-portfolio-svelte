@@ -48,7 +48,7 @@ img {
 
 .nice-list {
   li::before {
-    content: "➞ ";
+    content: "・";
   }
 }
 
@@ -72,4 +72,9 @@ img {
   min-height: $cardWrapperHeight;
   max-height: $cardWrapperHeight;
   width: 100%;
+}
+
+ul,
+li {
+  @apply list-none;
 }

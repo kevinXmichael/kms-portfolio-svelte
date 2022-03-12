@@ -14,10 +14,10 @@
 <section class={`${gridLayout} ${gridSpace}`}>
   <Card title="I have">
     <ul role="none">
-      <li role="menuitem">A master's degree in computer science</li>
-      <li role="menuitem">Founded an internet startup</li>
       <li role="menuitem">8+ years professional experience</li>
       <li role="menuitem">12 completed projects</li>
+      <li role="menuitem">Founded an internet startup</li>
+      <li role="menuitem">A master's degree in computer science</li>
     </ul>
   </Card>
   <Card title="I offer">
@@ -31,23 +31,21 @@
     <ul role="none">
       <li role="menuitem">Svelte, Vue, React</li>
       <li role="menuitem">JavaScript, Python</li>
-      <li role="menuitem">vite, yarn, Sass, Windi CSS</li>
-      <li role="menuitem">Google, Firebase, Vercel</li>
-      <li role="menuitem">macOS, Linux, Brave, Firefox</li>
+      <li role="menuitem">vite, yarn, Sass, Tailwind/Windi</li>
+      <li role="menuitem">GCloud, Firebase, Vercel</li>
+      <li role="menuitem">macOS, Linux</li>
     </ul>
   </Card>
   <Card title="I am available">
     <ul role="none">
       <li role="menuitem">
-        You can find me on <a href="https://www.linkedin.com/in/kmschott/" target="_blank"
-          >LinkedIn
-        </a>
+        Vita on <a href="https://www.linkedin.com/in/kmschott/" target="_blank">LinkedIn </a>
       </li>
       <li role="menuitem">
-        Checkout my <a href="https://github.com/kevinXmichael/" target="_blank">GitHub</a> projects
+        Projects on <a href="https://github.com/kevinXmichael/" target="_blank">GitHub</a>
       </li>
       <li role="menuitem">
-        And also Email me: <a href="mailto:kevin@kms695.de">kevin@kms695.de</a>
+        Email via <a href="mailto:kevin@kms695.de">kevin@kms695.de</a>
       </li>
     </ul>
   </Card>
