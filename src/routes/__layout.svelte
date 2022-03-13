@@ -4,6 +4,7 @@
   import "virtual:windi-utilities.css"
   import "@/css/app.scss"
   import boot from "@/lib/boot"
+  import Menu from "@/components/Menu.svelte"
 
   export const load = async () => {
     await Promise.allSettled([boot()])
@@ -12,3 +13,6 @@
 </script>
 
 <slot />
+<div class="flex-grow my-md" />
+<footer>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</footer>
+<Menu />

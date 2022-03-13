@@ -58,6 +58,3 @@
 <Expandable classes={gridSpace} title="Legal" expandable>
   <Legal />
 </Expandable>
-
-<div class="flex-grow my-md" />
-<footer>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</footer>

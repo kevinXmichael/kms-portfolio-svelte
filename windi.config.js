@@ -17,7 +17,8 @@ module.exports = {
     fontSize: {
       "3xl": "var(--3xl)",
       "2xl": "var(--2xl)",
-      xl: "var(--xl)"
+      xl: "var(--xl)",
+      sm: "var(--sm)"
     },
     screens: {
       sm: "640px",
