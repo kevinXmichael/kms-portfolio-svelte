@@ -13,6 +13,5 @@
 </script>
 
 <slot />
-<div class="flex-grow my-md" />
-<footer>{`© ${new Date().getFullYear()} Kevin Michael Schott`}</footer>
+<div class="flex-grow my-xl" />
 <Menu />

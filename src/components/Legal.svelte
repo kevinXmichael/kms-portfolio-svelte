@@ -1,4 +1,4 @@
-<div class="text-justify card-style">
+<div class="text-justify">
   <address>
     <h1 tabindex="0">Imprint</h1>
     <br />
@@ -583,4 +583,7 @@
   <p tabindex="0">
     As a responsible company, we do not use automatic decision-making or profiling.
   </p>
+  <br />
+  <br />
+  <p class="text-center text-hover">{`© ${new Date().getFullYear()} Kevin Michael Schott`}</p>
 </div>

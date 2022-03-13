@@ -1,7 +1,6 @@
 <script>
   import Card from "@/components/Card.svelte"
   import { projects } from "@/lib/projects"
-  export let classes
 
   function openProjectURL(url = false) {
     if (url) {
@@ -10,7 +9,7 @@
   }
 </script>
 
-<div class={classes}>
+<div class="grid sm:grid-cols-2 grid-cols-1 gap-md w-full">
   {#each Object.keys(projects).sort((a, b) => b - a) as year}
     {#each projects[year] as project}
       <Card
