@@ -31,19 +31,19 @@ export const projects = {
     {
       name: "infrasen",
       url: "https://infrasen.eu/",
-      techstack: ["python", "matomo", "wordpress"],
+      techstack: ["python", "matomo"],
       description: "Registration and contact management platform for a wildlife warning system."
     },
     {
       name: "pekkii",
       url: "https://www.pekkii.de/",
-      techstack: ["javascript", "stripe", "shopify"],
+      techstack: ["js", "stripe", "shopify"],
       description: "Online shop for fully customizable and sustainably produced backpacks."
     },
     {
       name: "freifeuer",
       url: "https://freifeuer.de/",
-      techstack: ["python", "gtm", "wordpress"],
+      techstack: ["python", "gtm"],
       description:
         "Performance analysis for electronic fireplaces sold as a luxury good via an online shop."
     }
@@ -77,7 +77,7 @@ export const projects = {
     },
     {
       name: "raipu",
-      techstack: ["java", "python", "c/c++"],
+      techstack: ["java", "python", "c++"],
       description:
         "Plugin to collect similar bugs of different programming languages in a centralized database."
     }

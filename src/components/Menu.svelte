@@ -1,6 +1,11 @@
 <script>
   import Icon from "@/components/Icon.svelte"
   import { menuItems, selectedMenuItem } from "@/lib/store"
+
+  function selected(menu) {
+    selectedMenuItem.set(menu)
+    window.scrollTo({ top: 0, left: 0 /* behavior: "smooth" */ })
+  }
 </script>
 
 <nav
@@ -11,7 +16,7 @@
 >
   {#each menuItems as menu}
     <Icon
-      on:click={() => selectedMenuItem.set(menu)}
+      on:click={() => selected(menu)}
       name={menu}
       caption={menu}
       classes={`md:mx-lg mx-md p-sm ${$selectedMenuItem === menu && "text-secondary-variant"}`}

@@ -27,7 +27,7 @@
 </script>
 
 <div
-  class={`${classes} flex flex-col flex-nowrap text-hover select-none cursor-pointer items-center justify-center`}
+  class={`${classes} flex flex-col flex-nowrap text-hover select-none cursor-pointer pressable items-center justify-center`}
   bind:this={svgWrapper}
   on:click={() => dispatch("click")}
 >

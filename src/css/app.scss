@@ -53,19 +53,13 @@ img {
 }
 
 .card-style {
-  @apply bg-blurry p-md rounded-md w-full h-full;
+  @apply bg-blurry rounded-md w-full h-full;
   @extend .std-hover;
-
-  &--interact {
-    @extend .pressable;
-    @extend .std-hover--scale;
-  }
 }
 
 .card {
   @apply flex flex-col items-center;
   @extend .card-style;
-  @extend .card-style--interact;
 
   $cardWrapperHeight: 13.5rem;
   min-height: $cardWrapperHeight;

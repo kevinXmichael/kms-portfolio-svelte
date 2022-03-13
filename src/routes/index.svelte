@@ -9,14 +9,14 @@
   $: isLegal = $selectedMenuItem === legal
 </script>
 
-<div class={!isVita && "hidden"}>
+<div class={isVita ? "fade-in" : "hidden"}>
   <Profile />
 </div>
 
-<div class={!isProjects && "hidden"}>
+<div class={isProjects ? "fade-in" : "hidden"}>
   <Projects />
 </div>
 
-<div class={!isLegal && "hidden"}>
+<div class={isLegal ? "fade-in" : "hidden"}>
   <Legal />
 </div>

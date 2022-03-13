@@ -9,14 +9,13 @@
   }
 </script>
 
-<div class="grid sm:grid-cols-2 grid-cols-1 gap-md w-full">
+<div class="grid sm:grid-cols-2 grid-cols-1 gap-lg w-full">
   {#each Object.keys(projects).sort((a, b) => b - a) as year}
     {#each projects[year] as project}
       <Card
         callback={() => openProjectURL(project.url)}
         description={project.description}
         title={project.name}
-        url={project.url}
         info={year}
         tags={project.techstack}
       />

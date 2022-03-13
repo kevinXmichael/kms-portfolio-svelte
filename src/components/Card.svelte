@@ -1,7 +1,6 @@
 <script>
   export let callback = () => {}
   export let description = false
-  // export let url = false
   export let info = false
   export let title = ""
   export let tags = []
@@ -17,13 +16,16 @@
 >
   <div class="flex flex-row items-center w-full">
     <h2 tabindex="0">{title}</h2>
-    {#if info}
+    <!-- {#if info}
       <div class="flex-grow" />
       <span tabindex="0">{info}</span>
-    {/if}
+    {/if} -->
   </div>
   <div class="flex-grow" />
-  <div class="flex flex-col w-full h-full mt-md bg-primary p-sm rounded-md nice-list">
+  <div
+    class="flex flex-col w-full h-full mt-md p-sm rounded-md nice-list
+          border-2 border-solid border-secondary pressable std-hover--scale"
+  >
     {#if description}
       <summary
         id="card-description"
@@ -45,7 +47,7 @@
           <div
             tabindex="0"
             id="card-tags"
-            class="text-small text-white text-cut rounded-md bg-blurry mr-sm mt-sm p-xs"
+            class="text-small text-primary text-cut rounded-md bg-secondary mr-sm mt-sm p-xs"
           >
             #{tag}
           </div>
