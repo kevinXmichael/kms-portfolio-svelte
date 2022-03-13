@@ -1,6 +1,5 @@
 <script>
   import Icon from "@/components/Icon.svelte"
-  import pb from "@/assets/profile-pic.png"
 </script>
 
 <header
@@ -10,7 +9,7 @@
 >
   <section class="fade-in">
     <img
-      src={pb}
+      src="favicon.png"
       alt="Kevin Michael Schott"
       width="100%"
       height="100%"
@@ -55,7 +54,7 @@
             tabindex="0"
             class="rounded-md pressable std-hover std-hover--scale cursor-pointer"
             style="width: 100%; height: auto"
-            src={`/src/assets/tech/${tech}.svg`}
+            src={`tech/${tech}.svg`}
             alt={tech}
           />
         {/each}
