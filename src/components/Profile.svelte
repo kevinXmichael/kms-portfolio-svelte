@@ -5,9 +5,9 @@
 <header
   role="heading"
   aria-label="profile"
-  class="fade-in flex flex-col w-full h-full items-center justify-center text-center"
+  class="flex flex-col w-full h-full items-center justify-center text-center"
 >
-  <section class="fade-in">
+  <section>
     <img
       src="favicon.png"
       alt="Kevin Michael Schott"
@@ -36,13 +36,13 @@
       <h1 tabindex="0">About me.</h1>
       <br />
       <p tabindex="0">
-        Meanwhile I work more than 8 years in IT professionally. In my master's program I founding a
-        successful internet startup, but also decided to go on a freelance journey.
+        Meanwhile I work for more than 8 years in IT. In my master's program I founded a successful
+        internet startup and also decided to go on a freelance journey.
       </p>
       <br />
       <p tabindex="0">
-        My work is agile by nature and 100% remote. If offer not only Web & mobile app development,
-        but also general IT consulting.
+        My work is agile by nature and 100% remote. I offer web & mobile app development as well as
+        IT consulting.
       </p>
 
       <br /><br /><br />
