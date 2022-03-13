@@ -36,12 +36,8 @@ module.exports = {
     },
     colors: {
       primary: "var(--primary)",
-      "primary-variant": "var(--primary-variant)",
       secondary: "var(--secondary)",
       "secondary-variant": "var(--secondary-variant)",
-      violet: "var(--violet)",
-      pink: "var(--pink)",
-      blue: "var(--blue)",
       white: "var(--white)",
       black: "var(--black)"
     }

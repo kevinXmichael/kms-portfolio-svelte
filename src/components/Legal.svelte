@@ -2,7 +2,9 @@
   <address>
     <h1 tabindex="0">Imprint</h1>
     <br />
-    <p tabindex="0">🤠&nbsp; <span class="text-hover">Kevin Michael Schott</span></p>
+    <p tabindex="0">
+      🤠&nbsp; <span class="text-hover text-secondary-variant">Kevin Michael Schott</span>
+    </p>
     <br />
     <p tabindex="0">📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
     <br />

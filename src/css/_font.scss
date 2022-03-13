@@ -22,7 +22,7 @@ h2 {
 }
 
 a {
-  @apply text-white;
+  @apply text-secondary-variant;
   @extend .text-hover;
 }
 
@@ -32,17 +32,8 @@ address {
 
 .text-hover {
   &:hover {
-    @apply font-bold;
+    @apply font-bold text-secondary-variant;
   }
-}
-
-.text-no-select {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 .text-cut {
