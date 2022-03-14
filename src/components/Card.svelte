@@ -23,7 +23,7 @@
   </div>
   <div class="flex-grow" />
   <div
-    class="flex flex-col w-full h-full mt-md p-sm rounded-md nice-list
+    class="flex flex-col w-full h-full mt-md p-sm rounded-md
           border-2 border-solid border-secondary pressable std-hover--scale"
   >
     {#if description}
@@ -47,7 +47,7 @@
           <div
             tabindex="0"
             id="card-tags"
-            class="text-small text-primary text-cut rounded-md bg-secondary mr-sm mt-sm p-xs"
+            class="text-small text-white text-cut rounded-md bg-secondary mr-sm mt-sm p-xs"
           >
             #{tag}
           </div>

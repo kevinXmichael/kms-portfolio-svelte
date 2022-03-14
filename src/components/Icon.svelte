@@ -12,7 +12,7 @@
   onMount(ensureSvgColors)
   function ensureSvgColors() {
     try {
-      const size = "1.5rem"
+      const size = "1.25rem"
       const svg = svgWrapper.children[0]
       svg.style.fill = "currentColor"
       svg.style.stroke = "currentColor"
@@ -27,7 +27,7 @@
 </script>
 
 <div
-  class={`${classes} flex flex-col flex-nowrap text-hover select-none cursor-pointer pressable items-center justify-center`}
+  class={`${classes} flex flex-col flex-nowrap text-hover select-none cursor-pointer items-center justify-center`}
   bind:this={svgWrapper}
   on:click={() => dispatch("click")}
 >

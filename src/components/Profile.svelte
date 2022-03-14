@@ -36,20 +36,20 @@
       <h1 tabindex="0">About me.</h1>
       <br />
       <p tabindex="0">
-        Meanwhile I work for more than 8 years in IT. In my master's program I founded a successful
-        internet startup and also decided to go on a freelance journey.
+        Meanwhile I work for more than 8 years in IT. During my master's program of computer science
+        I founded a successful internet startup and later decided to go on a freelance journey.
       </p>
       <br />
       <p tabindex="0">
-        My work is agile by nature and 100% remote. I offer web & mobile app development as well as
-        IT consulting.
+        My work is agile and remote by nature. I offer web & mobile app development with modern
+        frameworks as well as IT consulting.
       </p>
 
       <br /><br /><br />
       <h1 tabindex="0">What I work with.</h1>
       <br />
       <div class="grid sm:grid-cols-5 grid-cols-3 gap-sm w-full">
-        {#each ["macos", "linux", "brave", "vercel", "firebase", "heroku", "react", "nextjs", "svelte", "vite", "yarn", "sass", "nodejs", "python", "shopify", "stripe", "discord", "reddit", "youtube", "twitter", "insomnia", "ts", "js", "gcloud"] as tech}
+        {#each ["macos", "linux", "brave", "vercel", "firebase", "heroku", "react", "nextjs", "svelte", "vite", "yarn", "sass", "vue", "stripe", "nodejs", "python", "shopify", "reddit", "youtube", "discord", "laravel", "alpine", "insomnia", "js", "ts"] as tech}
           <img
             tabindex="0"
             class="rounded-md pressable std-hover std-hover--scale cursor-pointer"
