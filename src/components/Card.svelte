@@ -23,7 +23,7 @@
   </div>
   <div class="flex-grow" />
   <div
-    class="flex flex-col w-full h-full mt-md p-sm rounded-md
+    class="flex flex-col w-full h-full mt-md p-sm rounded-md bg-magic
           border-2 border-solid border-secondary pressable std-hover--scale"
   >
     {#if description}

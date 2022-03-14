@@ -13,5 +13,5 @@
 </script>
 
 <slot />
-<div class="flex-grow my-xl" />
+<div class="flex-grow my-lg" />
 <Menu />
