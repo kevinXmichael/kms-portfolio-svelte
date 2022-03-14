@@ -31,7 +31,7 @@
       <h1 tabindex="0">Hey there, I am Kevin.</h1>
     </div>
 
-    <section class="mt-lg text-left">
+    <section class="mt-lg text-justify">
       <br />
       <h1 tabindex="0">About me.</h1>
       <br />
@@ -42,7 +42,8 @@
       <br />
       <p tabindex="0">
         My work is agile and remote by nature. I offer web & mobile app development with modern
-        frameworks as well as IT consulting.
+        frameworks as well as IT consulting. You can find a more detailed and formal curriculum
+        vitae <a href="Curriculum_Vitae.pdf" target="_blank">here</a>.
       </p>
 
       <br /><br /><br />

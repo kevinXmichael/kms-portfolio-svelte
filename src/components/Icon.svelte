@@ -12,7 +12,7 @@
   onMount(ensureSvgColors)
   function ensureSvgColors() {
     try {
-      const size = "1.25rem"
+      const size = "1.5rem"
       const svg = svgWrapper.children[0]
       svg.style.fill = "currentColor"
       svg.style.stroke = "currentColor"
