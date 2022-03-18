@@ -1,6 +1,7 @@
 <script>
   import Card from "@/components/Card.svelte"
   import { projects } from "@/lib/projects"
+  import { t } from "@/i18n"
 
   function openProjectURL(url = false) {
     if (url) {
@@ -14,7 +15,7 @@
     {#each projects[year] as project}
       <Card
         callback={() => openProjectURL(project.url)}
-        description={project.description}
+        description={$t(`general.projects.${project.name}`)}
         title={project.name}
         info={year}
         tags={project.techstack}

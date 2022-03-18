@@ -5,13 +5,19 @@
   import "@/css/app.scss"
   import boot from "@/lib/boot"
   import Menu from "@/components/Menu.svelte"
+  import { locale, loadTranslations } from "@/i18n"
+  let setupResult = false
 
-  export const load = async () => {
-    await Promise.allSettled([boot()])
-    return {}
+  export const load = async ({ url }) => {
+    const { pathname } = url
+    const defaultLocale = "en"
+    setupResult = await Promise.allSettled([boot(), loadTranslations(defaultLocale, pathname)])
+    return setupResult
   }
 </script>
 
-<slot />
-<div class="flex-grow my-lg" />
-<Menu />
+{#if setupResult}
+  <slot />
+  <div class="flex-grow my-lg" />
+  <Menu />
+{/if}

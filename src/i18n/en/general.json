@@ -1,0 +1,23 @@
+{
+  "greeting": "Hey there, I am Kevin.",
+  "about": {
+    "me": "About me.",
+    "first": "Meanwhile I work for more than 8 years in IT. During my master's program of computer science I founded a successful internet startup and later decided to go on a freelance journey.",
+    "second": "My work is agile and remote by nature. I offer web & mobile app development with modern frameworks as well as IT consulting. You can find a more detailed and formal curriculum vitae <a href=\"Curriculum_Vitae.pdf\" target=\"_blank\">here</a>.",
+    "workWith": "What I work with."
+  },
+  "projects": {
+    "drawtogether": "Cyber-physical system that reacts to messages in a Twitch stream to control a draw bot.",
+    "focuslist": "Very simple (self-deployable) web app to manage daily tasks without getting stressed.",
+    "gifmemo": "A simple web-based memory game with GIFs instead of static pictures.",
+    "myylink": "Mobile and web app to create a social media linkpage in less than 5 minutes.",
+    "infrasen": "Registration and contact management platform for a wildlife warning system.",
+    "pekkii": "Online shop for fully customizable and sustainably produced backpacks.",
+    "freifeuer": "Performance analysis for electronic fireplaces sold as a luxury good via an online shop.",
+    "sellby": "Mobile and web app to let creators receive donations as their socials grow.",
+    "vonti": "Mobile and web app where users can scan NFC tags to create and automate tasks.",
+    "metab": "Web app that responds to a dedicated hardware supporting task- and time-tracking.",
+    "raix": "Plugin for the IntelliJ IDE to trace call-stacks to improve automated bug-fixing.",
+    "raipu": "Plugin to collect similar bugs of different programming languages in a centralized database."
+  }
+}

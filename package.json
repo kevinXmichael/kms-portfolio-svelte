@@ -19,5 +19,8 @@
     "svelte": "^3.44.0",
     "vite-plugin-windicss": "^1.8.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "sveltekit-i18n": "^2.1.1"
+  }
 }

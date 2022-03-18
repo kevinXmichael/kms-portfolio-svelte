@@ -1,5 +1,7 @@
 <script>
   import Icon from "@/components/Icon.svelte"
+  import { t } from "@/i18n"
+  const aboutSecond = $t("general.about.second")
 </script>
 
 <header
@@ -28,26 +30,19 @@
           <Icon name="email" />
         </a>
       </div>
-      <h1 tabindex="0">Hey there, I am Kevin.</h1>
+      <h1 tabindex="0">{$t("general.greeting")}</h1>
     </div>
 
     <section class="mt-lg text-justify">
       <br />
-      <h1 tabindex="0">About me.</h1>
+      <h1 tabindex="0">{$t("general.about.me")}</h1>
       <br />
-      <p tabindex="0">
-        Meanwhile I work for more than 8 years in IT. During my master's program of computer science
-        I founded a successful internet startup and later decided to go on a freelance journey.
-      </p>
+      <p tabindex="0">{$t("general.about.first")}</p>
       <br />
-      <p tabindex="0">
-        My work is agile and remote by nature. I offer web & mobile app development with modern
-        frameworks as well as IT consulting. You can find a more detailed and formal curriculum
-        vitae <a href="Curriculum_Vitae.pdf" target="_blank">here</a>.
-      </p>
+      <p tabindex="0">{@html aboutSecond}</p>
 
       <br /><br /><br />
-      <h1 tabindex="0">What I work with.</h1>
+      <h1 tabindex="0">{$t("general.about.workWith")}</h1>
       <br />
       <div class="grid sm:grid-cols-5 grid-cols-3 gap-sm w-full">
         {#each ["macos", "linux", "brave", "vercel", "firebase", "heroku", "react", "nextjs", "svelte", "vite", "yarn", "sass", "vue", "stripe", "nodejs", "python", "shopify", "reddit", "youtube", "discord", "laravel", "alpine", "insomnia", "js", "ts"] as tech}
