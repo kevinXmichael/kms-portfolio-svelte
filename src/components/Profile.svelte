@@ -1,7 +1,11 @@
 <script>
   import Icon from "@/components/Icon.svelte"
-  import { t } from "@/i18n"
-  const aboutSecond = $t("general.about.second")
+  import { locale, loadTranslations, t } from "@/i18n"
+  $: aboutSecond = $t("general.about.second")
+
+  function switchLocale() {
+    loadTranslations(locale.get() === "en" ? "de" : "en")
+  }
 </script>
 
 <header
@@ -17,6 +21,7 @@
       height="100%"
       class="rounded-1/2 w-10rem pressable std-hover--glow std-hover--scale cursor-pointer"
       tabindex="0"
+      on:click={switchLocale}
     />
     <div class="my-md">
       <div class="flex flex-row flex-nowrap justify-center mb-md">
@@ -33,9 +38,7 @@
       <h1 tabindex="0">{$t("general.greeting")}</h1>
     </div>
 
-    <section class="mt-lg text-justify">
-      <br />
-      <h1 tabindex="0">{$t("general.about.me")}</h1>
+    <section class="mt-lg">
       <br />
       <p tabindex="0">{$t("general.about.first")}</p>
       <br />

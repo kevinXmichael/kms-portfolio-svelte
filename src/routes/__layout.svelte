@@ -5,13 +5,12 @@
   import "@/css/app.scss"
   import boot from "@/lib/boot"
   import Menu from "@/components/Menu.svelte"
-  import { locale, loadTranslations } from "@/i18n"
+  import { loadTranslations } from "@/i18n"
   let setupResult = false
 
-  export const load = async ({ url }) => {
-    const { pathname } = url
+  export const load = async () => {
     const defaultLocale = "en"
-    setupResult = await Promise.allSettled([boot(), loadTranslations(defaultLocale, pathname)])
+    setupResult = await Promise.allSettled([boot(), loadTranslations(defaultLocale)])
     return setupResult
   }
 </script>
