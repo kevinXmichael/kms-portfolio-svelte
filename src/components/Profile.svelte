@@ -1,10 +1,11 @@
 <script>
-  import Icon from "@/components/Icon.svelte"
   import { locale, loadTranslations, t } from "@/i18n"
+  import Icon from "@/components/Icon.svelte"
   $: aboutSecond = $t("general.about.second")
 
   function switchLocale() {
-    loadTranslations(locale.get() === "en" ? "de" : "en")
+    const isGerman = locale.get() === "de"
+    loadTranslations(isGerman ? "en" : "de")
   }
 </script>
 
@@ -14,15 +15,18 @@
   class="flex flex-col w-full h-full items-center justify-center text-center"
 >
   <section>
-    <img
-      src="favicon.png"
-      alt="Kevin Michael Schott"
-      width="100%"
-      height="100%"
-      class="rounded-1/2 w-10rem pressable std-hover--glow std-hover--scale cursor-pointer"
-      tabindex="0"
-      on:click={switchLocale}
-    />
+    <div class="relative">
+      <img
+        src="favicon.png"
+        alt="Kevin Michael Schott"
+        id="profile-pic"
+        width="100%"
+        height="100%"
+        class="rounded-1/2 w-10rem pressable std-hover--glow std-hover--scale cursor-pointer"
+        tabindex="0"
+        on:click={switchLocale}
+      />
+    </div>
     <div class="my-md">
       <div class="flex flex-row flex-nowrap justify-center mb-md">
         <a href="https://github.com/kevinXmichael" target="_blank">
