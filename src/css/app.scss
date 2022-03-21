@@ -39,6 +39,11 @@ main {
   max-width: $app-max-width !important;
 }
 
+::selection {
+  color: var(--primary) !important;
+  background: var(--white) !important;
+}
+
 svg,
 img {
   width: 1.5rem;

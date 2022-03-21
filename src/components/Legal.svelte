@@ -99,5 +99,4 @@
   <p tabindex="0" class="text-center text-hover">
     {`© ${new Date().getFullYear()} Kevin Michael Schott`}
   </p>
-  <br />
 </div>
