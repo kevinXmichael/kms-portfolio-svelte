@@ -17,7 +17,7 @@
   <section>
     <div class="relative">
       <img
-        src="favicon.png"
+        src="favicon.jpg"
         alt="Kevin Michael Schott"
         id="profile-pic"
         width="100%"
