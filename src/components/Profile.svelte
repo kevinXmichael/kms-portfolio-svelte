@@ -12,7 +12,7 @@
 <header
   role="heading"
   aria-label="profile"
-  class="flex flex-col w-full h-full items-center justify-center text-center"
+  class="flex flex-col w-full h-full items-center justify-center text-center pb-lg"
 >
   <section>
     <div class="relative">
@@ -52,7 +52,7 @@
       <h1 tabindex="0">{$t("general.about.workWith")}</h1>
       <br />
       <div class="grid sm:grid-cols-5 grid-cols-3 gap-sm w-full">
-        {#each ["macos", "linux", "brave", "vercel", "web3", "nextjs", "vite", "yarn", "sass", "svelte", "solidity", "eth", "firebase", "heroku", "react", "vue", "stripe", "nodejs", "python", "shopify", "reddit", "youtube", "discord", "laravel", "alpine", "insomnia", "js", "ts"] as tech}
+        {#each ["vite", "vue", "react", "sass", "brave", "svelte", "stripe", "nodejs", "python", "jupyter", "discord", "solidity", "eth", "firebase", "nextjs", "insomnia", "js", "ts", "gcloud", "tailwind"] as tech}
           <img
             tabindex="0"
             class="rounded-md pressable std-hover std-hover--scale cursor-pointer"

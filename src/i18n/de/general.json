@@ -2,7 +2,7 @@
   "greeting": "Hey, ich bin Kevin.",
   "about": {
     "first": "Mittlerweile arbeite ich seit mehr als 8 Jahren in der IT. Während meines Masterstudiums der Informatik habe ich ein erfolgreiches Internet-Startup gegründet und mich später für das Freelancing entschieden.",
-    "second": "Meine Arbeit ist von Natur aus agil und remote. Ich biete Web- und Mobile-App-Entwicklung mit modernen Frameworks sowie IT-Beratung an. <a href=\"CV_de.pdf\" target=\"_blank\">Hier</a> finden Sie einen detaillierten und formalen Lebenslauf.",
+    "second": "Meine Arbeit ist von Natur aus agil und remote. <a href=\"CV_de.pdf\" target=\"_blank\">Hier</a> finden Sie einen detaillierten und formalen Lebenslauf.",
     "workWith": "Womit ich arbeite."
   },
   "projects": {
