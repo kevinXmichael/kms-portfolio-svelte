@@ -39,7 +39,7 @@
           <Icon name="email" />
         </a>
       </div>
-      <h1 tabindex="0">{$t("general.greeting")}</h1>
+      <h1 tabindex="0"><span class="wave">👋</span>&nbsp;&nbsp;{$t("general.greeting")}</h1>
     </div>
 
     <section class="mt-lg">
