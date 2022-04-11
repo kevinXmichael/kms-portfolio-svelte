@@ -6,17 +6,16 @@
     "workWith": "Womit ich arbeite."
   },
   "projects": {
-    "drawtogether": "Cyber-physisches System, das auf Nachrichten in einem Twitch-Stream reagiert, um einen Draw-Bot zu steuern.",
-    "focuslist": "Webanwendung zur Verwaltung täglicher Aufgaben ohne Stress.",
-    "gifmemo": "Ein webbasiertes Memory-Spiel mit GIFs anstelle von statischen Bildern.",
+    "tvcharts": "Übersicht der IMDb-Bewertungen für eine ganze Serie.",
+    "nextnature": "Mehrere Webseiten und mobile Apps, wie Menschen für nachhaltiges Verhalten belohnt werden können.",
     "myylink": "Mobile App und Web App zur Erstellung einer Social-Media-Linkpage in weniger als 5 Minuten.",
-    "infrasen": "Registrierungs- und Kontaktmanagement-Plattform für Wildwarnsysteme.",
-    "pekkii": "Online-Shop für vollständig anpassbare und nachhaltig produzierte Rucksäcke.",
-    "freifeuer": "Leistungsanalyse für elektronische Kamine, die als Luxusgut über einen Online-Shop verkauft werden.",
     "sellby": "Mobile App und Web App, mit der Influencer Spenden erhalten können.",
     "vonti": "Mobile App, mit der Benutzer NFC-Tags scannen können, um Aufgaben zu erstellen und zu automatisieren.",
     "metab": "Web App, die mit einer speziellen Hardware verbunden ist, die Aufgaben- und Zeiterfassung unterstützt.",
     "raix": "Plugin für die IntelliJ IDE zur Verfolgung von Call-Stacks zur Verbesserung der automatisierten Fehlerbehebung.",
-    "raipu": "Plugin zum Sammeln ähnlicher Bugs verschiedener Programmiersprachen in einer zentralen Datenbank."
+    "raipu": "Plugin zum Sammeln ähnlicher Bugs verschiedener Programmiersprachen in einer zentralen Datenbank.",
+    "drawtogether": "Cyber-physisches System, das auf Nachrichten in einem Twitch-Stream reagiert, um einen Draw-Bot zu steuern.",
+    "focuslist": "Webanwendung zur Verwaltung täglicher Aufgaben ohne Stress.",
+    "gifmemo": "Ein webbasiertes Memory-Spiel mit GIFs anstelle von statischen Bildern."
   }
 }

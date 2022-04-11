@@ -2,7 +2,9 @@
   <address tabindex="0">
     <h1 tabindex="0">Imprint</h1>
     <br />
-    <p tabindex="0">Kevin Michael Schott (kms695)<br />Mühlenstraße 19<br />39104 Magdeburg</p>
+    <p class="text-left" tabindex="0">
+      🏠&nbsp; Kevin Michael Schott (kms695), Mühlenstraße 19, 39104 Magdeburg
+    </p>
     <br />
     <p>📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
     <br />

@@ -1,7 +1,6 @@
 <script>
   export let callback = () => {}
   export let description = false
-  export let info = false
   export let title = ""
   export let tags = []
 </script>
@@ -16,10 +15,6 @@
 >
   <div class="flex flex-row items-center w-full">
     <h2 tabindex="0">{title}</h2>
-    <!-- {#if info}
-      <div class="flex-grow" />
-      <span tabindex="0">{info}</span>
-    {/if} -->
   </div>
   <div class="flex-grow" />
   <div
