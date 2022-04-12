@@ -26,8 +26,7 @@
   <p tabindex="0">
     If you have additional questions or require more information about my Privacy Policy, do not
     hesitate to contact me. My Privacy Policy was generated with the help of <a
-      href="https://www.gdprprivacynotice.com/"
-      >GDPR Privacy Policy Generator from GDPRPrivacyNotice.com</a
+      href="https://www.gdprprivacynotice.com/">GDPRPrivacyNotice.com</a
     >
   </p>
   <br />

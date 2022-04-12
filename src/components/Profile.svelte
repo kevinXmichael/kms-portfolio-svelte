@@ -52,7 +52,7 @@
       <h1 tabindex="0">{$t("general.about.workWith")}</h1>
       <br />
       <div class="grid sm:grid-cols-5 grid-cols-3 gap-sm w-full">
-        {#each ["vite", "vue", "react", "sass", "brave", "svelte", "stripe", "nodejs", "nuxtjs", "python", "jupyter", "discord", "solidity", "eth", "firebase", "nextjs", "insomnia", "js", "ts", "gcloud", "tailwind"] as tech}
+        {#each ["vite", "vue", "react", "brave", "svelte", "stripe", "nodejs", "nuxtjs", "python", "firebase", "jupyter", "discord", "solidity", "eth", "nextjs", "insomnia", "js", "ts", "kubernetes", "gcloud", "tailwind"] as tech}
           <img
             tabindex="0"
             class="rounded-md pressable std-hover std-hover--scale cursor-pointer"
