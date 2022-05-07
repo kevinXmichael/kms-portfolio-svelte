@@ -1,5 +1,10 @@
 export const projects = [
   {
+    name: "rain",
+    url: "https://github.com/beehive-innovation/",
+    techstack: ["svelte", "ethers", "subgraph"]
+  },
+  {
     name: "tvcharts",
     url: "https://tvcharts.co/",
     techstack: ["react", "next.js", "supabase"]
@@ -21,11 +26,11 @@ export const projects = [
   },
   {
     name: "vonti",
-    techstack: ["react", "gcloud", "nfc"]
+    techstack: ["vue.js", "gcloud", "nfc"]
   },
   {
     name: "metab",
-    techstack: ["react", "python", "iot"]
+    techstack: ["vue.js", "python", "iot"]
   },
   {
     name: "raix",
