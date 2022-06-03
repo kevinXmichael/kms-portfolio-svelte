@@ -22,7 +22,7 @@
     <meta name="twitter:description" content="Portfolio of Kevin Michael Schott (kms695)" />
     <meta name="twitter:image" content="https://kms695.de/favicon.jpg" />
 
-    <link rel="icon" href="%svelte.assets%/favicon.jpg" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,10 +30,12 @@
       rel="stylesheet"
     />
     <title>Kevin Michael Schott</title>
-    %svelte.head%
+    %sveltekit.head%
   </head>
   <body>
-    <main id="app" role="main" class="flex flex-col items-center p-md m-auto">%svelte.body%</main>
+    <main id="app" role="main" class="flex flex-col items-center p-md m-auto">
+      %sveltekit.body%
+    </main>
     <noscript style="margin: auto; padding: 3rem; font-size: 1.5rem">
       <div>
         This website represents the portfolio of Kevin Michael Schott (kms695) and will work better
