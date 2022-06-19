@@ -37,7 +37,8 @@ module.exports = {
     colors: {
       primary: "var(--primary)",
       secondary: "var(--secondary)",
-      "secondary-variant": "var(--secondary-variant)",
+      "primary-content": "var(--primary-content)",
+      "secondary-content": "var(--secondary-content)",
       white: "var(--white)",
       black: "var(--black)"
     }

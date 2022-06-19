@@ -1,4 +1,4 @@
-$app-max-width: 40rem;
+$app-max-width: 35rem;
 
 @import "animations";
 @import "font";
@@ -17,14 +17,13 @@ html,
 body {
   @include std-font-props;
   font-family: "Karla", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: $fw-regular;
 }
 
 body {
   @extend .fancy-scrollbar;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
-    env(safe-area-inset-left);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 body,
@@ -57,24 +56,4 @@ ul {
   li::before {
     content: "・";
   }
-}
-
-.card-style {
-  @apply rounded-md w-full h-full;
-  @extend .std-hover;
-}
-
-.card {
-  @apply flex flex-col items-center;
-  @extend .card-style;
-
-  $cardWrapperHeight: 13.5rem;
-  min-height: $cardWrapperHeight;
-  height: 100%;
-  width: 100%;
-}
-
-.bg-magic {
-  background-color: var(--primary) !important;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%546ef1' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
 }

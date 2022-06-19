@@ -3,20 +3,32 @@
   import "virtual:windi-components.css"
   import "virtual:windi-utilities.css"
   import "@/css/app.scss"
+  import { browser } from "$app/env"
   import boot from "@/lib/boot"
-  import Menu from "@/components/Menu.svelte"
-  import { loadTranslations } from "@/i18n"
+
   let setupResult = false
 
-  export const load = async () => {
-    const defaultLocale = "en"
-    setupResult = await Promise.allSettled([boot(), loadTranslations(defaultLocale)])
-    return setupResult
+  async function init() {
+    if (browser) {
+      setupResult = await Promise.all([boot()])
+      return setupResult
+    } else {
+      setupResult = true
+    }
   }
+  init()
 </script>
 
 {#if setupResult}
   <slot />
-  <div class="flex-grow my-lg" />
-  <Menu />
+  <div class="flex-grow my-md" />
+  <footer class="<md:text-center">
+    <p tabindex="0">
+      {`© ${new Date().getFullYear()} Kevin Michael Schott`}
+      ・
+      <a tabindex="0" href="/">Home</a>
+      ・
+      <a tabindex="0" href="/legal">Imprint / GDPR</a>
+    </p>
+  </footer>
 {/if}

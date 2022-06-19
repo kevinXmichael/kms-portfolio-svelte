@@ -24,9 +24,5 @@ function setInnerViewport() {
 }
 
 export default async function boot() {
-  return await Promise.allSettled([
-    doHTMLvoodoo(),
-    setInnerViewport(),
-    window.addEventListener("resize", setInnerViewport)
-  ])
+  return await Promise.all([doHTMLvoodoo(), setInnerViewport(), window.addEventListener("resize", setInnerViewport)])
 }

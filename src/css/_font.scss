@@ -12,17 +12,17 @@ $fw-bold: 700;
 }
 
 h1 {
-  line-height: 2.25rem;
+  line-height: 2.75rem;
   font-size: var(--3xl) !important;
 }
 
 h2 {
-  line-height: 1.75rem;
+  line-height: 2rem;
   font-size: var(--2xl) !important;
 }
 
 a {
-  @apply text-secondary-variant;
+  @apply text-secondary no-underline;
 }
 
 address {
@@ -31,7 +31,7 @@ address {
 
 .text-hover {
   &:hover {
-    @apply font-bold text-secondary-variant;
+    @apply font-bold text-secondary;
   }
 }
 

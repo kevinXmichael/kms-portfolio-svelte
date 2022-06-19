@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "next",
+    "@sveltejs/kit": "1.0.0-next.350",
     "prettier": "^2.5.1",
     "prettier-plugin-svelte": "^2.5.0",
     "sass": "^1.49.9",
@@ -20,7 +20,5 @@
     "vite-plugin-windicss": "^1.8.3"
   },
   "type": "module",
-  "dependencies": {
-    "sveltekit-i18n": "^2.1.1"
-  }
+  "dependencies": {}
 }
