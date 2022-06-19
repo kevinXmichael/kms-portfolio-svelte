@@ -49,7 +49,7 @@ $std-transition-duration: 0.3s;
 }
 
 .glow {
-  filter: drop-shadow(0 0 0.75rem var(--secondary-content));
+  filter: drop-shadow(0 0 0.5rem var(--secondary-content));
 }
 
 .wave {

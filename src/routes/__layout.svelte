@@ -22,7 +22,7 @@
 {#if setupResult}
   <slot />
   <div class="flex-grow my-md" />
-  <footer class="<md:text-center">
+  <footer>
     <p tabindex="0">
       {`© ${new Date().getFullYear()} Kevin Michael Schott`}
       ・
