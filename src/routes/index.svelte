@@ -30,13 +30,14 @@
     <a target="_blank" href="/CV.pdf">CV</a>. If you think we can work together, feel free to send me an
     <a href="mailto:hello@kms695.de">Email</a>.
   </p>
+  <p>
+    Looking for amazing UX/UI Design? Check out <a target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a
+    >.
+  </p>
 </section>
 
 <style>
-  p,
-  h1,
-  h2,
-  h3 {
+  p {
     @apply mt-md;
   }
 </style>
