@@ -20,6 +20,10 @@
       <div class="flex-grow mt-md" />
       <table class="w-full">
         <tr>
+          <td tabindex="0">Email</td>
+          <td tabindex="0"><a target="_blank" href="mailto:hello@kms695.de">hello@kms695.de</a></td>
+        </tr>
+        <tr class="py-sm">
           <td tabindex="0">Socials</td>
           <td tabindex="0"
             ><a target="_blank" href="https://www.linkedin.com/in/kmschott/">LinkedIn</a>,
@@ -27,12 +31,8 @@
           >
         </tr>
         <tr>
-          <td tabindex="0">Qualifications</td>
+          <td tabindex="0">More</td>
           <td tabindex="0"><a target="_blank" href="/CV.pdf">Curriculum Vitae</a></td>
-        </tr>
-        <tr>
-          <td tabindex="0">Email</td>
-          <td tabindex="0"><a target="_blank" href="mailto:hello@kms695.de">hello@kms695.de</a></td>
         </tr>
       </table>
     </div>

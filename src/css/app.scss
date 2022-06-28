@@ -76,6 +76,13 @@ ul {
 }
 
 table {
+  tr {
+    &:not(:first-child) {
+      td {
+        @apply pt-0.2rem;
+      }
+    }
+  }
   td {
     &:not(:first-child) {
       @apply pl-sm;
