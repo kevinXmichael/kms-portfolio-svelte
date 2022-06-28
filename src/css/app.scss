@@ -1,3 +1,4 @@
+$app-min-width: 20rem;
 $app-max-width: 35rem;
 
 @import "animations";
@@ -17,8 +18,14 @@ html,
 body {
   @include std-font-props;
   font-family: "Karla", sans-serif;
-  font-size: 24px;
   font-weight: $fw-regular;
+  font-size: 18px;
+  @media screen and (min-width: 30rem) {
+    font-size: 22px;
+  }
+  @media screen and (min-width: 40rem) {
+    font-size: 26px;
+  }
 }
 
 body {
@@ -35,6 +42,7 @@ main {
 
 nav,
 main {
+  min-width: $app-min-width !important;
   max-width: $app-max-width !important;
 }
 
@@ -55,5 +63,22 @@ ul {
   line-height: 1.5;
   li::before {
     content: "・";
+  }
+}
+
+.box-shadow-drop {
+  transform: translate(0.25rem, -0.25rem);
+  box-shadow: -0.5rem 0.5rem 0 var(--secondary);
+  // &:hover {
+  //   transform: translate(0.25rem, -0.25rem);
+  //   box-shadow: -0.5rem 0.5rem 0 var(--secondary);
+  // }
+}
+
+table {
+  td {
+    &:not(:first-child) {
+      @apply pl-sm;
+    }
   }
 }

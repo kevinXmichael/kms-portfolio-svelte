@@ -1,8 +1,8 @@
 {
   "name": "portfolio-kms695-sveltekit",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --host",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",

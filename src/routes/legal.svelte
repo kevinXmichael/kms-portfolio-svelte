@@ -4,7 +4,7 @@
     <br />
     <p class="text-left" tabindex="0">🏠&nbsp; Kevin Michael Schott (kms695), Mühlenstraße 19, 39104 Magdeburg</p>
     <br />
-    <p>📩&nbsp; <a href="mailto:kevin@kms695.de">kevin@kms695.de</a></p>
+    <p>📨&nbsp; <a href="mailto:hello@kms695.de">hello@kms695.de</a></p>
     <br />
     <p>
       🌐&nbsp; <a href="https://kms695.de" target="_blank">https://kms695.de</a>

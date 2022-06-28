@@ -21,15 +21,12 @@
 
 {#if setupResult}
   <slot />
-  <div class="flex-grow my-lg" />
+  <div class="flex-grow mt-md" />
+  <p tabindex="0">
+    <span tabindex="0">Looking for amazing UX/UI Design? Check out</span>
+    <a tabindex="0" target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a>.
+  </p>
   <footer>
-    <p tabindex="0">
-      <span>Projects I am proud of </span> ・
-      <a tabindex="0" href="https://docs.rainprotocol.xyz/intro/" target="_blank">Rain</a> ・
-      <a tabindex="0" href="https://nextnature.net/" target="_blank">Next Nature</a>
-      ・ <a tabindex="0" href="https://myylink.de/" target="_blank">myylink</a> ・
-      <a href="https://sellby.de/" target="_blank">sellby</a>
-    </p>
     <p tabindex="0" class="mt-md">
       <span tabindex="0">{`© ${new Date().getFullYear()} Kevin Michael Schott`}</span>
       ・

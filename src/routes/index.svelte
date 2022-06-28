@@ -1,44 +1,47 @@
-<header tabindex="0" class="flex md:flex-row flex-col flex-nowrap items-center" role="heading" aria-label="profile">
-  <div class="relative md:mr-md">
-    <img
-      src="favicon.jpg"
-      alt="Kevin Michael Schott"
-      id="profile-pic"
-      width="100%"
-      height="100%"
-      class="rounded-1/2 w-6rem pressable std-hover--glow std-hover--scale cursor-pointer"
-      tabindex="0"
-    />
+<section
+  class="bg-primary flex flex-col p-md w-full border-solid border-2 border-secondary pressable cursor-pointer box-shadow-drop min-w-2s0rem"
+>
+  <div class="flex flex-row flex-wrap w-full">
+    <div class="flex flex-row items-center justify-center <lg:w-full <lg:mb-md">
+      <img
+        src="favicon.jpg"
+        alt="Kevin Michael Schott"
+        id="profile-pic"
+        width="100%"
+        height="100%"
+        class="lg:rounded-md rounded-1/2 w-full max-w-10rem"
+        tabindex="0"
+      />
+    </div>
+    <div class="lg:mx-sm" />
+    <div class="flex flex-col grow">
+      <h1 tabindex="0" class="mb-sm">Kevin Michael Schott</h1>
+      <span tabindex="0">Freelance Software Engineer</span>
+      <div class="flex-grow mt-md" />
+      <table class="w-full">
+        <tr>
+          <td tabindex="0">Socials</td>
+          <td tabindex="0"
+            ><a target="_blank" href="https://www.linkedin.com/in/kmschott/">LinkedIn</a>,
+            <a target="_blank" href="https://github.com/kevinXmichael">GitHub</a></td
+          >
+        </tr>
+        <tr>
+          <td tabindex="0">Qualifications</td>
+          <td tabindex="0"><a target="_blank" href="/CV.pdf">Curriculum Vitae</a></td>
+        </tr>
+        <tr>
+          <td tabindex="0">Email</td>
+          <td tabindex="0"><a target="_blank" href="mailto:hello@kms695.de">hello@kms695.de</a></td>
+        </tr>
+      </table>
+    </div>
   </div>
-  <h1 tabindex="0" class="<md:text-center">
-    Hey there, it's <span tabindex="0" class="text-secondary">Kevin</span>&nbsp;<span tabindex="0" class="wave">👋</span
-    >
-  </h1>
-</header>
-<section>
-  <p tabindex="0">
-    I am an independent software developer & IT consultant from Germany and publish a lot of stuff on <a
-      target="_blank"
-      href="https://github.com/kevinXmichael">GitHub</a
-    >.
-  </p>
-  <p tabindex="0">
-    As a tech enthusiast I love to work with modern web technologies and strongly believe that web 3.0 is the future.
-  </p>
-  <p tabindex="0">
-    You can find more information about me on
-    <a tabindex="0" target="_blank" href="https://www.linkedin.com/in/kmschott/">LinkedIn</a> and in my
-    <a tabindex="0" target="_blank" href="/CV.pdf">CV</a>. If you think we can work together, feel free to send me an
-    <a tabindex="0" href="mailto:hello@kms695.de">Email</a>.
-  </p>
-  <p tabindex="0">
-    Looking for amazing UX/UI Design? Check out <a target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a
-    >.
-  </p>
+  <div tabindex="0" class="mt-lg">
+    <span>Projects・</span>
+    <a tabindex="0" href="https://docs.rainprotocol.xyz/intro/" target="_blank">Rain</a> ・
+    <a tabindex="0" href="https://nextnature.net/" target="_blank">Next Nature</a> ・
+    <a tabindex="0" href="https://myylink.de/" target="_blank">myylink</a> ・
+    <a href="https://sellby.de/" target="_blank">sellby</a>
+  </div>
 </section>
-
-<style>
-  p {
-    @apply mt-md;
-  }
-</style>
