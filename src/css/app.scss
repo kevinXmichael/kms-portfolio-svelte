@@ -14,6 +14,16 @@ $app-max-width: 35rem;
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: var(--secondary) !important;
+  color: var(--white) !important;
+}
+
+img::selection {
+  background-color: var(--white) !important;
+  color: var(--black) !important;
+}
+
 html,
 body {
   @include std-font-props;
@@ -46,11 +56,6 @@ main {
   max-width: $app-max-width !important;
 }
 
-::selection {
-  color: var(--primary) !important;
-  background: var(--white) !important;
-}
-
 svg,
 img {
   width: 1.5rem;
@@ -76,6 +81,8 @@ ul {
 }
 
 table {
+  border-spacing: 0 !important;
+
   tr {
     &:not(:first-child) {
       td {
