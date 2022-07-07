@@ -1,4 +1,4 @@
-function doHTMLvoodoo() {
+function doHTMLvoodoo(): boolean {
   window.addEventListener("resize", setInnerViewport)
 
   const hacker = "%cHey hacker 🔥"
@@ -14,13 +14,15 @@ function doHTMLvoodoo() {
   console.info(`%c${kms695_}`, `color: #feef37; font-size: medium`)
   const kms695 = document.createComment(kms695_)
   document.prepend(kms695)
+  return true
 }
 
-function setInnerViewport() {
+function setInnerViewport(): boolean {
   const vh = window.innerHeight * 0.01
   const vw = window.innerWidth * 0.01
   document.documentElement.style.setProperty("--vh", `${vh}px`)
   document.documentElement.style.setProperty("--vw", `${vw}px`)
+  return true
 }
 
 export default async function boot() {

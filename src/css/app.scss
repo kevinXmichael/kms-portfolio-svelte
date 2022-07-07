@@ -73,11 +73,7 @@ ul {
 
 .box-shadow-drop {
   transform: translate(0.25rem, -0.25rem);
-  box-shadow: -0.5rem 0.5rem 0 var(--secondary);
-  // &:hover {
-  //   transform: translate(0.25rem, -0.25rem);
-  //   box-shadow: -0.5rem 0.5rem 0 var(--secondary);
-  // }
+  box-shadow: -0.25rem 0.25rem 0 var(--secondary);
 }
 
 table {
@@ -95,4 +91,10 @@ table {
       @apply pl-sm;
     }
   }
+}
+
+.card {
+  @apply rounded-lg bg-transparent w-full h-full;
+  @extend .std-hover;
+  @extend .pressable;
 }

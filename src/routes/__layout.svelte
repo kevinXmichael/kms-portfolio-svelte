@@ -1,5 +1,4 @@
-<script context="module">
-  // import 'virtual:windi-base.css'
+<script context="module" lang="ts">
   import "virtual:windi-components.css"
   import "virtual:windi-utilities.css"
   import "@/css/app.scss"
@@ -19,20 +18,27 @@
   init()
 </script>
 
+<script lang="ts">
+  $: isHome = browser ? window?.location?.pathname == "/" || false : false
+</script>
+
+<div class="background-sliding" />
 {#if setupResult}
   <slot />
-  <div class="flex-grow mt-md" />
-  <p tabindex="0">
-    <span tabindex="0">Looking for amazing UX/UI Design? Check out</span>
-    <a tabindex="0" target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a>.
-  </p>
-  <footer>
-    <p tabindex="0" class="mt-md">
-      <span tabindex="0">{`© ${new Date().getFullYear()} Kevin Michael Schott`}</span>
-      ・
-      <a tabindex="0" href="/">Home</a>
-      ・
-      <a tabindex="0" href="/legal">Imprint / GDPR</a>
+  <div class="flex-grow mt-sm" />
+  <div class="card p-md flex flex-col items-center justify-center">
+    <p tabindex="0">
+      <span tabindex="0">Looking for amazing UX/UI Design? Check out</span>
+      <a tabindex="0" target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a>.
     </p>
-  </footer>
+    <footer class="mt-sm">
+      <p tabindex="0" class="mt-md">
+        <span tabindex="0">{`© ${new Date().getFullYear()} Kevin Michael Schott`}</span>
+        ・
+        <a tabindex="0" href="/">Home</a>
+        ・
+        <a tabindex="0" href="/legal">Imprint / GDPR</a>
+      </p>
+    </footer>
+  </div>
 {/if}

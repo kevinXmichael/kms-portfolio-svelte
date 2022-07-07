@@ -36,11 +36,14 @@ module.exports = {
     },
     colors: {
       primary: "var(--primary)",
-      secondary: "var(--secondary)",
       "primary-content": "var(--primary-content)",
+      "primary-transparent": "var(--primary-transparent)",
+      "primary-light": "var(--primary-light)",
+      secondary: "var(--secondary)",
       "secondary-content": "var(--secondary-content)",
       white: "var(--white)",
-      black: "var(--black)"
+      black: "var(--black)",
+      transparent: "var(--transparent)"
     }
   }
 }

@@ -1,4 +1,4 @@
-<div class="text-justify">
+<div class="card p-md text-justify">
   <address tabindex="0">
     <h1 tabindex="0">Imprint</h1>
     <br />
