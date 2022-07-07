@@ -97,8 +97,9 @@ table {
   @apply rounded-lg w-full h-full border-1 border-solid;
   @extend .std-hover;
   @extend .pressable;
-  border-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(0.15rem);
   backdrop-filter: blur(0.15rem);
+  border-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(108, 108, 108, 0.37);
   background: rgba(85, 85, 85, 0.2);
 }
