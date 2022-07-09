@@ -41,7 +41,7 @@
       </table>
     </div>
   </div>
-  <div tabindex="0" class="m-md mt-lg text-center">
+  <div tabindex="0" class="m-md text-center">
     <span>Projects・</span>
     <a tabindex="0" href="https://docs.rainprotocol.xyz/intro/" target="_blank">Rain</a> ・
     <a tabindex="0" href="https://nextnature.net/" target="_blank">Next Nature</a> ・
