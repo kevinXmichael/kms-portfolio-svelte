@@ -9,7 +9,7 @@
     id="profile-pic"
     width="100%"
     height="100%"
-    class="rounded-xl w-full max-w-12rem"
+    class="rounded-xl w-full max-w-12rem pressable std-hover std-hover--scale"
     tabindex="0"
   />
 

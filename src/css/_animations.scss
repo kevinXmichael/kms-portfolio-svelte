@@ -11,11 +11,11 @@ $std-transition-duration: 0.3s;
     }
   }
 
-  &--glow {
-    &:hover {
-      @extend .glow;
-    }
-  }
+  // &--glow {
+  //   &:hover {
+  //     @extend .glow;
+  //   }
+  // }
 
   &--scale {
     transition: $std-transition-duration;
