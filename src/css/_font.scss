@@ -20,11 +20,20 @@ h2 {
   font-size: var(--xl) !important;
 }
 
-a {
-  @apply text-secondary no-underline;
+.link {
+  color: var(--secondary) !important;
 
   &:hover {
     text-decoration: underline !important;
+  }
+}
+
+a {
+  @apply no-underline;
+  color: unset;
+
+  &:hover {
+    text-decoration: unset;
   }
 }
 

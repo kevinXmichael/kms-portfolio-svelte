@@ -123,7 +123,9 @@ $std-transition-duration: 0.3s;
     top: 0;
     animation: slide 30s linear infinite;
     z-index: -1;
-
+    width: 200vw;
+    height: 200vh;
+    // Insert CSS background pattern starting here
     background-color: #1c1c1c;
     opacity: 1;
     background-image: linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
@@ -132,11 +134,9 @@ $std-transition-duration: 0.3s;
       linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
       linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077),
       linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
-    background-size: 22px 39px;
-    background-position: 0 0, 0 0, 11px 19px, 11px 19px, 0 0, 11px 19px;
-    // background: url("background.jpg") repeat-x;
-    width: 200vw;
-    height: 200vh;
+    background-size: 54px 95px;
+    background-position: 0 0, 0 0, 27px 47px, 27px 47px, 0 0, 27px 47px;
+    // Until here
   }
 }
 

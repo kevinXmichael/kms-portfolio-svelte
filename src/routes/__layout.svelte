@@ -4,6 +4,7 @@
   import "@/css/app.scss"
   import { browser } from "$app/env"
   import boot from "@/lib/boot"
+  import CardButton from "$lib/CardButton.svelte"
 
   let setupResult = false
 
@@ -19,26 +20,21 @@
 </script>
 
 <script lang="ts">
-  $: isHome = browser ? window?.location?.pathname == "/" || false : false
+  // $: isHome = browser ? window?.location?.pathname == "/" || false : false
 </script>
 
 <div class="background-sliding" />
 {#if setupResult}
   <slot />
-  <div class="flex-grow mt-sm" />
-  <div class="card p-md flex flex-col items-center justify-center">
-    <p tabindex="0">
-      <span tabindex="0">Looking for amazing UX/UI Design? Check out</span>
-      <a tabindex="0" target="_blank" href="https://www.carstengreif.de/">Carsten Greif</a>.
-    </p>
-    <footer class="mt-sm">
-      <p tabindex="0" class="mt-md">
-        <span tabindex="0">{`© ${new Date().getFullYear()} Kevin Michael Schott`}</span>
-        ・
-        <a tabindex="0" href="/">Home</a>
-        ・
-        <a tabindex="0" href="/legal">Imprint / GDPR</a>
-      </p>
-    </footer>
-  </div>
+  <footer class="w-full mt-lg">
+    <h2 tabindex="0">More</h2>
+    <CardButton class="mt-md" href="https://www.carstengreif.de/">
+      <span>Amazing&nbsp;</span>
+      <span class="link">UX/UI Design</span>
+    </CardButton>
+    <CardButton href="/legal" target="_self" class="mt-sm">
+      {`© ${new Date().getFullYear()} kms695`}・
+      <span class="link">Imprint / GDPR</span>
+    </CardButton>
+  </footer>
 {/if}

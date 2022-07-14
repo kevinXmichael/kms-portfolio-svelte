@@ -12,6 +12,7 @@ $app-max-width: 35rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @apply outline-secondary;
 }
 
 ::selection {
@@ -94,12 +95,12 @@ table {
 }
 
 .card {
-  @apply rounded-lg w-full h-full border-1 border-solid;
+  @apply rounded-xl w-full h-full border-1 border-solid;
   @extend .std-hover;
   @extend .pressable;
-  -webkit-backdrop-filter: blur(0.15rem);
-  backdrop-filter: blur(0.15rem);
+  -webkit-backdrop-filter: blur(0.25rem);
+  backdrop-filter: blur(0.25rem);
+  box-shadow: 0 4px 16px 0 rgba(100, 100, 100, 0.3);
   border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(108, 108, 108, 0.37);
-  background: rgba(85, 85, 85, 0.2);
+  background: rgba(50, 50, 50, 0.1);
 }
