@@ -2,7 +2,7 @@
   import CardButton from "$lib/CardButton.svelte"
 </script>
 
-<CardButton scale={false}>
+<CardButton scale={false} target="_self">
   <section class="p-md text-justify">
     <address tabindex="0">
       <h1 tabindex="0">Imprint</h1>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let href = ""
+  export let href = "javascript:void(0)"
   export let scale = true
   export let target = "_blank"
 </script>
