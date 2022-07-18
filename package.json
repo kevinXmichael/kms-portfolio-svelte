@@ -1,7 +1,7 @@
 {
   "autho": "Kevin Michael Schott",
   "name": "portfolio-kms695-sveltekit",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scripts": {
     "dev": "svelte-kit dev --host",
     "build": "svelte-kit build",

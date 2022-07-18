@@ -20,7 +20,7 @@
     &nbsp;
     <h1 class="text-moving-color-later">Schott</h1>
   </div>
-  <div tabindex="0" class="text-center w-full mt-sm">Web 3 Senior Software Engineer<br />& Freelance IT Consultant</div>
+  <div tabindex="0" class="text-center w-full mt-sm">Software Engineer & IT Consultant</div>
 
   <CardButton class="mt-lg" href="https://www.linkedin.com/in/kmschott/">
     <span class="link">LinkedIn</span>

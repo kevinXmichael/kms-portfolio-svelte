@@ -21,7 +21,7 @@ h2 {
 }
 
 .link {
-  color: var(--secondary) !important;
+  color: var(--primary) !important;
 
   &:hover {
     text-decoration: underline !important;
@@ -43,7 +43,7 @@ address {
 
 .text-hover {
   &:hover {
-    @apply font-bold text-secondary;
+    @apply font-bold text-primary;
   }
 }
 

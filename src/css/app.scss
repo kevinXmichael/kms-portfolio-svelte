@@ -12,11 +12,11 @@ $app-max-width: 35rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  @apply outline-secondary;
+  @apply outline-primary;
 }
 
 ::selection {
-  background-color: var(--secondary) !important;
+  background-color: var(--primary) !important;
   color: var(--black) !important;
 }
 
@@ -74,7 +74,7 @@ ul {
 
 .box-shadow-drop {
   transform: translate(0.25rem, -0.25rem);
-  box-shadow: -0.25rem 0.25rem 0 var(--secondary);
+  box-shadow: -0.25rem 0.25rem 0 var(--primary);
 }
 
 table {
