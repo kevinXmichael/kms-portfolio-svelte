@@ -3,24 +3,26 @@
 </script>
 
 <header class="flex flex-col items-center justify-center w-full">
-  <img
-    src="favicon.png"
-    alt="Kevin Michael Schott"
-    id="profile-pic"
-    width="100%"
-    height="100%"
-    class="rounded-xl w-full max-w-12rem pressable std-hover std-hover--scale"
-    tabindex="0"
-  />
+  <div class="card p-md flex flex-col items-center justify-center">
+    <img
+      src="favicon.png"
+      alt="Kevin Michael Schott"
+      id="profile-pic"
+      width="100%"
+      height="100%"
+      class="rounded-xl w-full max-w-12rem pressable std-hover std-hover--scale"
+      tabindex="0"
+    />
 
-  <div tabindex="0" class="flex flex-row items-center justify-center w-full mt-md">
-    <h1 class="text-moving-color">Kevin</h1>
-    &nbsp;
-    <h1 class="text-moving-color-late">Michael</h1>
-    &nbsp;
-    <h1 class="text-moving-color-later">Schott</h1>
+    <div tabindex="0" class="flex flex-row items-center justify-center w-full mt-md">
+      <h1 class="text-moving-color">Kevin</h1>
+      &nbsp;
+      <h1 class="text-moving-color-late">Michael</h1>
+      &nbsp;
+      <h1 class="text-moving-color-later">Schott</h1>
+    </div>
+    <div tabindex="0" class="text-center w-full mt-sm">Software Engineer & IT Consultant</div>
   </div>
-  <div tabindex="0" class="text-center w-full mt-sm">Software Engineer & IT Consultant</div>
 
   <CardButton class="mt-lg" href="https://www.linkedin.com/in/kmschott/">
     <span class="link">LinkedIn</span>

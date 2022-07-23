@@ -1,0 +1,42 @@
+let matrixInterval
+
+export function renderMatrix(): boolean {
+  try {
+    clearInterval(matrixInterval)
+    const canvas = document.getElementById("matrix")
+    const context = canvas.getContext("2d")
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
+
+    const katakana =
+      "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン"
+    const latin = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    const nums = "0123456789"
+    const alphabet = katakana + latin + nums
+
+    const fontSize = 16
+    const columns = canvas.width / fontSize
+    const rainDrops = Array.from<number>({ length: columns }).fill(canvas.height)
+
+    const draw = () => {
+      context.fillStyle = "rgba(0, 0, 0, 0.05)"
+      context.fillRect(0, 0, canvas.width, canvas.height)
+      context.fillStyle = "#00ff00"
+      context.font = fontSize + "px monospace"
+
+      for (let i = 0; i < rainDrops.length; i++) {
+        const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length))
+        context.fillText(text, i * fontSize, rainDrops[i] * fontSize)
+        if (rainDrops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          rainDrops[i] = 0
+        }
+        rainDrops[i]++
+      }
+    }
+    matrixInterval = setInterval(draw, 50)
+    return true
+  } catch (err) {
+    console.error(`❌ Smth went wrong in renderMatrix: ${err}`)
+    return false
+  }
+}

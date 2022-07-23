@@ -14,10 +14,12 @@ $fw-bold: 700;
 h1 {
   line-height: 1.75rem;
   font-size: var(--2xl) !important;
+  font-weight: $fw-bold;
 }
 
 h2 {
   font-size: var(--xl) !important;
+  font-weight: $fw-bold;
 }
 
 .link {

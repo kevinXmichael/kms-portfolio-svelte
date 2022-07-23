@@ -1,3 +1,5 @@
+import { renderMatrix } from "$lib/matrix"
+
 function doHTMLvoodoo(): boolean {
   window.addEventListener("resize", setInnerViewport)
 
@@ -22,9 +24,14 @@ function setInnerViewport(): boolean {
   const vw = window.innerWidth * 0.01
   document.documentElement.style.setProperty("--vh", `${vh}px`)
   document.documentElement.style.setProperty("--vw", `${vw}px`)
-  return true
+  return renderMatrix()
 }
 
 export default async function boot() {
-  return await Promise.all([doHTMLvoodoo(), setInnerViewport(), window.addEventListener("resize", setInnerViewport)])
+  return await Promise.allSettled([
+    doHTMLvoodoo(),
+    renderMatrix(),
+    setInnerViewport(),
+    window.addEventListener("resize", setInnerViewport)
+  ])
 }

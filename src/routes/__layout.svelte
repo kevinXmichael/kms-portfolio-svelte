@@ -23,7 +23,7 @@
   // $: isHome = browser ? window?.location?.pathname == "/" || false : false
 </script>
 
-<div class="background-sliding" />
+<!-- <div class="background-sliding" /> -->
 {#if setupResult}
   <slot />
   <footer class="w-full mt-lg">
